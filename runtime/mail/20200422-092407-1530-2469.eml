@@ -1,0 +1,427 @@
+Message-ID: <7432273772a190bd7bc5f15a06349a3b@cvajm.com>
+Date: Wed, 22 Apr 2020 09:24:07 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-04-22 09:24:07
+[36.75.20.56][62][8cr30hfl5p89foqdkmb5s7j3s7][error][=
+yii\db\IntegrityException]
+PDOException: SQLSTATE[23000]: Integrity const=
+raint violation: 1052
+Column 'status' in where clause is ambiguous in
+/=
+home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php:1290
+Stac=
+k trace:
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Comman=
+d.php(1290):
+PDOStatement->execute()
+#1
+/home/cvajm/public_html/cvajm=
+/vendor/yiisoft/yii2/db/Command.php(1158):
+yii\db\Command->internalExecut=
+e('SELECT COUNT(*)...')
+#2
+/home/cvajm/public_html/cvajm/vendor/yiisoft=
+/yii2/db/Command.php(425):
+yii\db\Command->queryInternal('fetchColumn', 0=
+)
+#3
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Query.php(463=
+):
+yii\db\Command->queryScalar()
+#4
+/home/cvajm/public_html/cvajm/ven=
+dor/yiisoft/yii2/db/ActiveQuery.php(352):
+yii\db\Query->queryScalar('COUN=
+T(*)', Object(yii\db\Connection))
+#5
+/home/cvajm/public_html/cvajm/vend=
+or/yiisoft/yii2/db/Query.php(347):
+yii\db\ActiveQuery->queryScalar('COUNT=
+(*)', Object(yii\db\Connection))
+#6
+/home/cvajm/public_html/cvajm/vendo=
+r/yiisoft/yii2/data/ActiveDataProvider.php(169):
+yii\db\Query->count('*',=
+ NULL)
+#7
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/data/BaseDa=
+taProvider.php(169):
+yii\data\ActiveDataProvider->prepareTotalCount()
+#=
+8
+/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-grid/src/GridView.ph=
+p(1754):
+yii\data\BaseDataProvider->getTotalCount()
+#9
+/home/cvajm/pu=
+blic_html/cvajm/vendor/kartik-v/yii2-grid/src/GridView.php(1163):
+kartik\=
+grid\GridView->initToggleData()
+#10
+/home/cvajm/public_html/cvajm/vendo=
+r/yiisoft/yii2/base/Widget.php(140):
+kartik\grid\GridView->run()
+#11 /h=
+ome/cvajm/public_html/cvajm/backend/views/voucher/index.php(25):
+yii\base=
+\Widget::widget(Array)
+#12
+/home/cvajm/public_html/cvajm/vendor/yiisoft=
+/yii2/base/View.php(348):
+require('/home/cvajm/pub...')
+#13
+/home/cva=
+jm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(257):
+yii\base\Vie=
+w->renderPhpFile('/home/cvajm/pub...', '[<span
+class=3D"s...')
+#14
+/h=
+ome/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(156):
+yii\b=
+ase\View->renderFile('/home/cvajm/pub...', Array,
+Object(backend\controll=
+ers\VoucherController))
+#15
+/home/cvajm/public_html/cvajm/vendor/yiisof=
+t/yii2/base/Controller.php(384):
+yii\base\View->render('index', Array,
+=
+Object(backend\controllers\VoucherController))
+#16
+/home/cvajm/public_h=
+tml/cvajm/backend/controllers/VoucherController.php(47):
+yii\base\Control=
+ler->render('index', Array)
+#17 [internal function]:
+backend\controller=
+s\VoucherController->actionIndex()
+#18
+/home/cvajm/public_html/cvajm/ve=
+ndor/yiisoft/yii2/base/InlineAction.php(57):
+call_user_func_array(Array, =
+Array)
+#19
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Contr=
+oller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#20
+/home=
+/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Module.php(528):
+yii\ba=
+se\Controller->runAction('', Array)
+#21
+/home/cvajm/public_html/cvajm/v=
+endor/yiisoft/yii2/web/Application.php(103):
+yii\base\Module->runAction('=
+voucher', Array)
+#22
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/=
+base/Application.php(386):
+yii\web\Application->handleRequest(Object(yii\=
+web\Request))
+#23 /home/cvajm/public_html/cvajm/backend/web/index.php(22)=
+:
+yii\base\Application->run()
+#24 {main}
+
+Next yii\db\IntegrityExce=
+ption: SQLSTATE[23000]: Integrity constraint
+violation: 1052 Column 'stat=
+us' in where clause is ambiguous
+The SQL being executed was: SELECT COUNT=
+(*) FROM `voucher` LEFT JOIN
+`unit` ON `voucher`.`id_unit` =3D `unit`.`id=
+_unit` LEFT JOIN `karyawan`
+ON `voucher`.`id_karyawan` =3D `karyawan`.`id=
+_karyawan` WHERE
+`status`=3D'2' in
+/home/cvajm/public_html/cvajm/vendor=
+/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0
+/home/cvajm/public_ht=
+ml/cvajm/vendor/yiisoft/yii2/db/Command.php(1295):
+yii\db\Schema->convert=
+Exception(Object(PDOException), 'SELECT
+COUNT(*)...')
+#1
+/home/cvajm/=
+public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1158):
+yii\db\Comman=
+d->internalExecute('SELECT COUNT(*)...')
+#2
+/home/cvajm/public_html/cva=
+jm/vendor/yiisoft/yii2/db/Command.php(425):
+yii\db\Command->queryInternal=
+('fetchColumn', 0)
+#3
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2=
+/db/Query.php(463):
+yii\db\Command->queryScalar()
+#4
+/home/cvajm/publ=
+ic_html/cvajm/vendor/yiisoft/yii2/db/ActiveQuery.php(352):
+yii\db\Query->=
+queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5
+/home/cvajm/publi=
+c_html/cvajm/vendor/yiisoft/yii2/db/Query.php(347):
+yii\db\ActiveQuery->q=
+ueryScalar('COUNT(*)', Object(yii\db\Connection))
+#6
+/home/cvajm/public=
+_html/cvajm/vendor/yiisoft/yii2/data/ActiveDataProvider.php(169):
+yii\db\=
+Query->count('*', NULL)
+#7
+/home/cvajm/public_html/cvajm/vendor/yiisoft=
+/yii2/data/BaseDataProvider.php(169):
+yii\data\ActiveDataProvider->prepar=
+eTotalCount()
+#8
+/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-gri=
+d/src/GridView.php(1754):
+yii\data\BaseDataProvider->getTotalCount()
+#9=
+
+/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-grid/src/GridView.php=
+(1163):
+kartik\grid\GridView->initToggleData()
+#10
+/home/cvajm/public=
+_html/cvajm/vendor/yiisoft/yii2/base/Widget.php(140):
+kartik\grid\GridVie=
+w->run()
+#11 /home/cvajm/public_html/cvajm/backend/views/voucher/index.ph=
+p(25):
+yii\base\Widget::widget(Array)
+#12
+/home/cvajm/public_html/cva=
+jm/vendor/yiisoft/yii2/base/View.php(348):
+require('/home/cvajm/pub...')=
+
+#13
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(25=
+7):
+yii\base\View->renderPhpFile('/home/cvajm/pub...', '[<span
+class=3D=
+"s...')
+#14
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View=
+.php(156):
+yii\base\View->renderFile('/home/cvajm/pub...', Array,
+Objec=
+t(backend\controllers\VoucherController))
+#15
+/home/cvajm/public_html/c=
+vajm/vendor/yiisoft/yii2/base/Controller.php(384):
+yii\base\View->render(=
+'index', Array,
+Object(backend\controllers\VoucherController))
+#16
+/h=
+ome/cvajm/public_html/cvajm/backend/controllers/VoucherController.php(47):=
+
+yii\base\Controller->render('index', Array)
+#17 [internal function]:=
+
+backend\controllers\VoucherController->actionIndex()
+#18
+/home/cvajm=
+/public_html/cvajm/vendor/yiisoft/yii2/base/InlineAction.php(57):
+call_us=
+er_func_array(Array, Array)
+#19
+/home/cvajm/public_html/cvajm/vendor/yi=
+isoft/yii2/base/Controller.php(157):
+yii\base\InlineAction->runWithParams=
+(Array)
+#20
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Modu=
+le.php(528):
+yii\base\Controller->runAction('', Array)
+#21
+/home/cvaj=
+m/public_html/cvajm/vendor/yiisoft/yii2/web/Application.php(103):
+yii\bas=
+e\Module->runAction('voucher', Array)
+#22
+/home/cvajm/public_html/cvajm=
+/vendor/yiisoft/yii2/base/Application.php(386):
+yii\web\Application->hand=
+leRequest(Object(yii\web\Request))
+#23 /home/cvajm/public_html/cvajm/back=
+end/web/index.php(22):
+yii\base\Application->run()
+#24 {main}
+Additio=
+nal Information:
+Array
+(
+    [0] =3D> 23000
+    [1] =3D> 1052
+   =
+ [2] =3D> Column 'status' in where clause is ambiguous
+)
+
+2020-04-22 =
+09:24:07
+[36.75.20.56][62][8cr30hfl5p89foqdkmb5s7j3s7][info][application]=
+ $_GET
+=3D [
+    'VoucherSearch' =3D> [
+        'nomor_voucher' =3D> =
+''
+        'tanggal' =3D> 'Rabu,22 April 2020'
+        'id_karyawan' =
+=3D> ''
+        'id_unit' =3D> ''
+        'keterangan' =3D> ''
+      =
+  'arahan_lain' =3D> ''
+        'start' =3D> ''
+        'stop' =3D> ''=
+
+        'status' =3D> '2'
+    ]
+    'r' =3D> 'voucher'
+]
+
+$_PO=
+ST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    'advanced-backend' =
+=3D> '8cr30hfl5p89foqdkmb5s7j3s7'
+    '_csrf-backend' =3D>
+'242ae4e0740=
+e4c45c61f8d1ae0383189fa05a0df40428df2a70fc08be19b4ebda:2:{i:0;s:13:\"_csrf-=
+backend\";i:1;s:32:\"ahwahSS_vFB6GJHHAS2-dbkpnaa7Ll0i\";}'
+]
+
+$_SESSI=
+ON =3D [
+    '__flash' =3D> []
+    'user_role' =3D> [
+        0 =3D> =
+'SYSTEM ADMINISTRATOR'
+        1 =3D> 'FULL ACCESS'
+    ]
+    'user_r=
+ole_id' =3D> [
+        0 =3D> 1
+        1 =3D> 19
+    ]
+    '__id' =
+=3D> 62
+]
+
+$_SERVER =3D [
+    'USER' =3D> 'cvajm'
+    'HOME' =3D>=
+ '/home/cvajm'
+    'SCRIPT_NAME' =3D> '/cvajm/backend/web/index.php'
+  =
+  'REQUEST_URI' =3D>
+'/cvajm/backend/web/index.php?VoucherSearch%5Bnomor_=
+voucher%5D=3D&VoucherSearch%5Btanggal%5D=3DRabu%2C22+April+2020&VoucherSear=
+ch%5Bid_karyawan%5D=3D&VoucherSearch%5Bid_unit%5D=3D&VoucherSearch%5Bketera=
+ngan%5D=3D&VoucherSearch%5Barahan_lain%5D=3D&VoucherSearch%5Bstart%5D=3D&Vo=
+ucherSearch%5Bstop%5D=3D&VoucherSearch%5Bstatus%5D=3D2&r=3Dvoucher'
+    '=
+QUERY_STRING' =3D>
+'VoucherSearch%5Bnomor_voucher%5D=3D&VoucherSearch%5Bt=
+anggal%5D=3DRabu%2C22+April+2020&VoucherSearch%5Bid_karyawan%5D=3D&VoucherS=
+earch%5Bid_unit%5D=3D&VoucherSearch%5Bketerangan%5D=3D&VoucherSearch%5Barah=
+an_lain%5D=3D&VoucherSearch%5Bstart%5D=3D&VoucherSearch%5Bstop%5D=3D&Vouche=
+rSearch%5Bstatus%5D=3D2&r=3Dvoucher'
+    'REQUEST_METHOD' =3D> 'GET'
+  =
+  'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1=
+'
+    'REMOTE_PORT' =3D> '62680'
+    'SCRIPT_FILENAME' =3D>
+'/home/cv=
+ajm/public_html/cvajm/backend/web/index.php'
+    'SERVER_ADMIN' =3D> '[no=
+ address given]'
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/home/cvajm/public_htm=
+l'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'https'
+   =
+ 'DOCUMENT_ROOT' =3D> '/home/cvajm/public_html'
+    'REMOTE_ADDR' =3D> '3=
+6.75.20.56'
+    'SERVER_PORT' =3D> '443'
+    'SERVER_ADDR' =3D> '178.12=
+8.25.198'
+    'SERVER_NAME' =3D> 'cvajm.com'
+    'SERVER_SOFTWARE' =3D>=
+ 'Apache/2.4.25'
+    'SERVER_SIGNATURE' =3D> ''
+    'PATH' =3D>
+'/usr=
+/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HTTP_COOKI=
+E' =3D> 'advanced-backend=3D8cr30hfl5p89foqdkmb5s7j3s7;
+_csrf-backend=3D2=
+42ae4e0740e4c45c61f8d1ae0383189fa05a0df40428df2a70fc08be19b4ebda%3A2%3A%7Bi=
+%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ahwahSS_vFB6GJHHA=
+S2-dbkpnaa7Ll0i%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'id-ID,id;q=3D0=
+.9,en-US;q=3D0.8,en;q=3D0.7'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, defla=
+te, br'
+    'HTTP_REFERER' =3D>
+'https://cvajm.com/cvajm/backend/web/in=
+dex.php?VoucherSearch%5Bnomor_voucher%5D=3D&VoucherSearch%5Btanggal%5D=3DRa=
+bu%2C22+April+2020&VoucherSearch%5Bid_karyawan%5D=3D&VoucherSearch%5Bid_uni=
+t%5D=3D&VoucherSearch%5Bketerangan%5D=3D&VoucherSearch%5Barahan_lain%5D=3D&=
+VoucherSearch%5Bstart%5D=3D&VoucherSearch%5Bstop%5D=3D&VoucherSearch%5Bstat=
+us%5D=3D&r=3Dvoucher'
+    'HTTP_SEC_FETCH_DEST' =3D> 'document'
+    'HT=
+TP_SEC_FETCH_MODE' =3D> 'navigate'
+    'HTTP_SEC_FETCH_SITE' =3D> 'same-o=
+rigin'
+    'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,applicat=
+ion/xml;q=3D0.9,image/webp,image/apng,*/*;q=3D0.8,application/signed-exchan=
+ge;v=3Db3;q=3D0.9'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 10=
+.0; Win64; x64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.1=
+13
+Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    '=
+HTTP_CONNECTION' =3D> 'keep-alive'
+    'HTTP_HOST' =3D> 'cvajm.com'
+   =
+ 'proxy-nokeepalive' =3D> '1'
+    'SSL_TLS_SNI' =3D> 'cvajm.com'
+    'H=
+TTPS' =3D> 'on'
+    'SCRIPT_URI' =3D> 'https://cvajm.com/cvajm/backend/we=
+b/index.php'
+    'SCRIPT_URL' =3D> '/cvajm/backend/web/index.php'
+    '=
+FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/cvajm/backend/web/index=
+.php'
+    'REQUEST_TIME_FLOAT' =3D> 1587518647.1403
+    'REQUEST_TIME' =
+=3D> 1587518647
+]

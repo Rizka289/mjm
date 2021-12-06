@@ -1,0 +1,420 @@
+Message-ID: <d402e320c1e15542d3ebcdd2b1f704f5@cvajm.com>
+Date: Tue, 10 Mar 2020 17:03:59 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-03-10 17:03:59
+[209.58.180.2][36][darko9jj5630a704gb2mi5t555][error]=
+[yii\db\Exception]
+PDOException: SQLSTATE[42S22]: Column not found: 1054 =
+Unknown column
+'pemakaian_ban.id_ban_detail' in 'on clause' in
+/home/cv=
+ajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace=
+:
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1=
+290):
+PDOStatement->execute()
+#1
+/home/cvajm/public_html/cvajm/vendor=
+/yiisoft/yii2/db/Command.php(1158):
+yii\db\Command->internalExecute('\n  =
+            ...')
+#2
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/=
+db/Command.php(425):
+yii\db\Command->queryInternal('fetchColumn', 0)
+#3=
+
+/home/cvajm/public_html/cvajm/backend/views/pemakaian-ban/view.php(224):=
+
+yii\db\Command->queryScalar()
+#4 [internal function]:
+yii\base\View-=
+>{closure}(Object(backend\models\PemakaianBan),
+Object(yii\widgets\Detail=
+View))
+#5
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/widgets/Det=
+ailView.php(245):
+call_user_func(Object(Closure), Object(backend\models\P=
+emakaianBan),
+Object(yii\widgets\DetailView))
+#6
+/home/cvajm/public_h=
+tml/cvajm/vendor/yiisoft/yii2/widgets/DetailView.php(143):
+yii\widgets\De=
+tailView->normalizeAttributes()
+#7
+/home/cvajm/public_html/cvajm/vendor=
+/yiisoft/yii2/base/BaseObject.php(109):
+yii\widgets\DetailView->init()
+=
+#8 [internal function]: yii\base\BaseObject->__construct(Array)
+#9
+/hom=
+e/cvajm/public_html/cvajm/vendor/yiisoft/yii2/di/Container.php(384):
+Refl=
+ectionClass->newInstanceArgs(Array)
+#10
+/home/cvajm/public_html/cvajm/v=
+endor/yiisoft/yii2/di/Container.php(156):
+yii\di\Container->build('yii\\w=
+idgets\\Det...', Array, Array)
+#11
+/home/cvajm/public_html/cvajm/vendor=
+/yiisoft/yii2/BaseYii.php(349):
+yii\di\Container->get('yii\\widgets\\Det.=
+..', Array, Array)
+#12
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii=
+2/base/Widget.php(137):
+yii\BaseYii::createObject(Array)
+#13
+/home/cv=
+ajm/public_html/cvajm/backend/views/pemakaian-ban/view.php(334):
+yii\base=
+\Widget::widget(Array)
+#14
+/home/cvajm/public_html/cvajm/vendor/yiisoft=
+/yii2/base/View.php(348):
+require('/home/cvajm/pub...')
+#15
+/home/cva=
+jm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(257):
+yii\base\Vie=
+w->renderPhpFile('/home/cvajm/pub...', '[<span
+class=3D"s...')
+#16
+/h=
+ome/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(156):
+yii\b=
+ase\View->renderFile('/home/cvajm/pub...', Array,
+Object(backend\controll=
+ers\PemakaianBanController))
+#17
+/home/cvajm/public_html/cvajm/vendor/y=
+iisoft/yii2/base/Controller.php(384):
+yii\base\View->render('view', Array=
+,
+Object(backend\controllers\PemakaianBanController))
+#18
+/home/cvajm=
+/public_html/cvajm/backend/controllers/PemakaianBanController.php(85):
+yi=
+i\base\Controller->render('view', Array)
+#19 [internal function]:
+backe=
+nd\controllers\PemakaianBanController->actionView('26')
+#20
+/home/cvajm=
+/public_html/cvajm/vendor/yiisoft/yii2/base/InlineAction.php(57):
+call_us=
+er_func_array(Array, Array)
+#21
+/home/cvajm/public_html/cvajm/vendor/yi=
+isoft/yii2/base/Controller.php(157):
+yii\base\InlineAction->runWithParams=
+(Array)
+#22
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Modu=
+le.php(528):
+yii\base\Controller->runAction('view', Array)
+#23
+/home/=
+cvajm/public_html/cvajm/vendor/yiisoft/yii2/web/Application.php(103):
+yii=
+\base\Module->runAction('pemakaian-ban/v...', Array)
+#24
+/home/cvajm/pu=
+blic_html/cvajm/vendor/yiisoft/yii2/base/Application.php(386):
+yii\web\Ap=
+plication->handleRequest(Object(yii\web\Request))
+#25 /home/cvajm/public_=
+html/cvajm/backend/web/index.php(22):
+yii\base\Application->run()
+#26 {=
+main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 U=
+nknown
+column 'pemakaian_ban.id_ban_detail' in 'on clause'
+The SQL bein=
+g executed was:=20
+                        SELECT ban.harga=20
+            =
+            FROM ban=20
+                        LEFT JOIN ban_detail ON
+b=
+an_detail.id_ban_detail =3D pemakaian_ban.id_ban_detail
+                 =
+       WHERE ban_detail.nomor_seri =3D 'aa3'
+                     in
+/h=
+ome/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Schema.php:664
+Stack t=
+race:
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.p=
+hp(1295):
+yii\db\Schema->convertException(Object(PDOException), '\n      =
+      =20
+...')
+#1
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db=
+/Command.php(1158):
+yii\db\Command->internalExecute('\n              ...'=
+)
+#2
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(4=
+25):
+yii\db\Command->queryInternal('fetchColumn', 0)
+#3
+/home/cvajm/p=
+ublic_html/cvajm/backend/views/pemakaian-ban/view.php(224):
+yii\db\Comman=
+d->queryScalar()
+#4 [internal function]:
+yii\base\View->{closure}(Objec=
+t(backend\models\PemakaianBan),
+Object(yii\widgets\DetailView))
+#5
+/h=
+ome/cvajm/public_html/cvajm/vendor/yiisoft/yii2/widgets/DetailView.php(245)=
+:
+call_user_func(Object(Closure), Object(backend\models\PemakaianBan),
+=
+Object(yii\widgets\DetailView))
+#6
+/home/cvajm/public_html/cvajm/vendor=
+/yiisoft/yii2/widgets/DetailView.php(143):
+yii\widgets\DetailView->normal=
+izeAttributes()
+#7
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/ba=
+se/BaseObject.php(109):
+yii\widgets\DetailView->init()
+#8 [internal fun=
+ction]: yii\base\BaseObject->__construct(Array)
+#9
+/home/cvajm/public_h=
+tml/cvajm/vendor/yiisoft/yii2/di/Container.php(384):
+ReflectionClass->new=
+InstanceArgs(Array)
+#10
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yi=
+i2/di/Container.php(156):
+yii\di\Container->build('yii\\widgets\\Det...',=
+ Array, Array)
+#11
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/Ba=
+seYii.php(349):
+yii\di\Container->get('yii\\widgets\\Det...', Array, Arra=
+y)
+#12
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Widget.ph=
+p(137):
+yii\BaseYii::createObject(Array)
+#13
+/home/cvajm/public_html/=
+cvajm/backend/views/pemakaian-ban/view.php(334):
+yii\base\Widget::widget(=
+Array)
+#14
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.=
+php(348):
+require('/home/cvajm/pub...')
+#15
+/home/cvajm/public_html/c=
+vajm/vendor/yiisoft/yii2/base/View.php(257):
+yii\base\View->renderPhpFile=
+('/home/cvajm/pub...', '[<span
+class=3D"s...')
+#16
+/home/cvajm/public=
+_html/cvajm/vendor/yiisoft/yii2/base/View.php(156):
+yii\base\View->render=
+File('/home/cvajm/pub...', Array,
+Object(backend\controllers\PemakaianBan=
+Controller))
+#17
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base=
+/Controller.php(384):
+yii\base\View->render('view', Array,
+Object(backe=
+nd\controllers\PemakaianBanController))
+#18
+/home/cvajm/public_html/cva=
+jm/backend/controllers/PemakaianBanController.php(85):
+yii\base\Controlle=
+r->render('view', Array)
+#19 [internal function]:
+backend\controllers\P=
+emakaianBanController->actionView('26')
+#20
+/home/cvajm/public_html/cva=
+jm/vendor/yiisoft/yii2/base/InlineAction.php(57):
+call_user_func_array(Ar=
+ray, Array)
+#21
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/=
+Controller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#22
+=
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Module.php(528):
+y=
+ii\base\Controller->runAction('view', Array)
+#23
+/home/cvajm/public_htm=
+l/cvajm/vendor/yiisoft/yii2/web/Application.php(103):
+yii\base\Module->ru=
+nAction('pemakaian-ban/v...', Array)
+#24
+/home/cvajm/public_html/cvajm/=
+vendor/yiisoft/yii2/base/Application.php(386):
+yii\web\Application->handl=
+eRequest(Object(yii\web\Request))
+#25 /home/cvajm/public_html/cvajm/backe=
+nd/web/index.php(22):
+yii\base\Application->run()
+#26 {main}
+Addition=
+al Information:
+Array
+(
+    [0] =3D> 42S22
+    [1] =3D> 1054
+    =
+[2] =3D> Unknown column 'pemakaian_ban.id_ban_detail' in 'on clause'
+)
+=
+
+2020-03-10 17:03:58
+[209.58.180.2][36][darko9jj5630a704gb2mi5t555][inf=
+o][application]
+$_GET =3D [
+    'r' =3D> 'pemakaian-ban/view'
+    'id=
+' =3D> '26'
+]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [=
+
+    'advanced-backend' =3D> 'darko9jj5630a704gb2mi5t555'
+    '_csrf-ba=
+ckend' =3D>
+'0ec8368918084d0471be4355e67cac9c7bbce2546117d60fd519d3c80aec=
+a7dda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"F8NOwN_qt5zvOneN2E949Bqk2TJQ=
+yDQP\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+    '__returnU=
+rl' =3D> '/cvajm/backend/web/index.php'
+    'user_role' =3D> [
+        =
+0 =3D> 'SYSTEM ADMINISTRATOR'
+    ]
+    'user_role_id' =3D> [
+       =
+ 0 =3D> 1
+    ]
+    '__id' =3D> 36
+]
+
+$_SERVER =3D [
+    'USER'=
+ =3D> 'cvajm'
+    'HOME' =3D> '/home/cvajm'
+    'SCRIPT_NAME' =3D> '/cv=
+ajm/backend/web/index.php'
+    'REQUEST_URI' =3D>
+'/cvajm/backend/web/i=
+ndex.php?r=3Dpemakaian-ban%2Fview&id=3D26'
+    'QUERY_STRING' =3D> 'r=3Dp=
+emakaian-ban%2Fview&id=3D26'
+    'REQUEST_METHOD' =3D> 'GET'
+    'SERVE=
+R_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    =
+'REMOTE_PORT' =3D> '54738'
+    'SCRIPT_FILENAME' =3D>
+'/home/cvajm/publ=
+ic_html/cvajm/backend/web/index.php'
+    'SERVER_ADMIN' =3D> '[no address=
+ given]'
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/home/cvajm/public_html'
+   =
+ 'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'http'
+    'DOCUMEN=
+T_ROOT' =3D> '/home/cvajm/public_html'
+    'REMOTE_ADDR' =3D> '209.58.180=
+.2'
+    'SERVER_PORT' =3D> '80'
+    'SERVER_ADDR' =3D> '178.128.25.198'=
+
+    'SERVER_NAME' =3D> 'cvajm.com'
+    'SERVER_SOFTWARE' =3D> 'Apache/=
+2.4.25'
+    'SERVER_SIGNATURE' =3D> ''
+    'PATH' =3D>
+'/usr/local/sb=
+in:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HTTP_CONNECTION' =
+=3D> 'keep-alive'
+    'HTTP_CACHE_CONTROL' =3D> 'max-age=3D0'
+    'HTTP=
+_X_FORWARDED_FOR' =3D> '180.246.82.199'
+    'HTTP_VIA' =3D> '1.1 singapor=
+e.rastavarian.com (squid/3.5.23)'
+    'HTTP_HOST' =3D> 'cvajm.com'
+    =
+'HTTP_COOKIE' =3D> 'advanced-backend=3Ddarko9jj5630a704gb2mi5t555;
+_csrf-=
+backend=3D0ec8368918084d0471be4355e67cac9c7bbce2546117d60fd519d3c80aeca7dda=
+%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22F8NOwN=
+_qt5zvOneN2E949Bqk2TJQyDQP%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'id-=
+ID,id;q=3D0.9,en-US;q=3D0.8,en;q=3D0.7'
+    'HTTP_ACCEPT_ENCODING' =3D> '=
+gzip, deflate'
+    'HTTP_REFERER' =3D>
+'http://cvajm.com/cvajm/backend/=
+web/index.php?r=3Dpemakaian-ban%2Findex'
+    'HTTP_ACCEPT' =3D>
+'text/h=
+tml,application/xhtml+xml,application/xml;q=3D0.9,image/webp,image/apng,*/*=
+;q=3D0.8,application/signed-exchange;v=3Db3;q=3D0.9'
+    'HTTP_USER_AGENT=
+' =3D> 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)
+AppleWebKit/537.36 (KHTM=
+L, like Gecko) Chrome/80.0.3987.132
+Safari/537.36'
+    'HTTP_UPGRADE_IN=
+SECURE_REQUESTS' =3D> '1'
+    'proxy-nokeepalive' =3D> '1'
+    'SCRIPT_=
+URI' =3D> 'http://cvajm.com/cvajm/backend/web/index.php'
+    'SCRIPT_URL'=
+ =3D> '/cvajm/backend/web/index.php'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+ =
+   'PHP_SELF' =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_TIME_FLOAT=
+' =3D> 1583831038.9928
+    'REQUEST_TIME' =3D> 1583831038
+]

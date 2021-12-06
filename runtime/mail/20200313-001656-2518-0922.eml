@@ -1,0 +1,291 @@
+Message-ID: <52165d960417cd8e218102b57de3013d@cvajm.com>
+Date: Fri, 13 Mar 2020 00:16:56 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-03-13 00:16:56
+[36.72.219.58][36][aq3h77ib9nbt4f44bqrmdrren7][error]=
+[yii\db\Exception]
+PDOException: SQLSTATE[42S22]: Column not found: 1054 =
+Unknown column
+'harga_accu' in 'field list' in
+/home/cvajm/public_html/=
+cvajm/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0
+/home/c=
+vajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1290):
+PDOState=
+ment->execute()
+#1
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db=
+/Command.php(1158):
+yii\db\Command->internalExecute('SELECT harga_ac...')=
+
+#2
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(42=
+5):
+yii\db\Command->queryInternal('fetchColumn', 0)
+#3
+/home/cvajm/pu=
+blic_html/cvajm/backend/controllers/PenggunaanAccuController.php(130):
+yi=
+i\db\Command->queryScalar()
+#4 [internal function]:
+backend\controllers=
+\PenggunaanAccuController->actionCreate()
+#5
+/home/cvajm/public_html/cv=
+ajm/vendor/yiisoft/yii2/base/InlineAction.php(57):
+call_user_func_array(A=
+rray, Array)
+#6
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/=
+Controller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#7
+/=
+home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Module.php(528):
+yi=
+i\base\Controller->runAction('create', Array)
+#8
+/home/cvajm/public_htm=
+l/cvajm/vendor/yiisoft/yii2/web/Application.php(103):
+yii\base\Module->ru=
+nAction('penggunaan-accu...', Array)
+#9
+/home/cvajm/public_html/cvajm/v=
+endor/yiisoft/yii2/base/Application.php(386):
+yii\web\Application->handle=
+Request(Object(yii\web\Request))
+#10 /home/cvajm/public_html/cvajm/backen=
+d/web/index.php(22):
+yii\base\Application->run()
+#11 {main}
+
+Next y=
+ii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown
+column '=
+harga_accu' in 'field list'
+The SQL being executed was: SELECT harga_accu=
+ FROM accu_detail LEFT
+JOIN accu ON accu.id_accu =3D accu_detail.id_accu =
+WHERE id_accu_detail =3D
+'2' in
+/home/cvajm/public_html/cvajm/vendor/yi=
+isoft/yii2/db/Schema.php:664
+Stack trace:
+#0
+/home/cvajm/public_html/=
+cvajm/vendor/yiisoft/yii2/db/Command.php(1295):
+yii\db\Schema->convertExc=
+eption(Object(PDOException), 'SELECT
+harga_ac...')
+#1
+/home/cvajm/pub=
+lic_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1158):
+yii\db\Command->=
+internalExecute('SELECT harga_ac...')
+#2
+/home/cvajm/public_html/cvajm/=
+vendor/yiisoft/yii2/db/Command.php(425):
+yii\db\Command->queryInternal('f=
+etchColumn', 0)
+#3
+/home/cvajm/public_html/cvajm/backend/controllers/Pe=
+nggunaanAccuController.php(130):
+yii\db\Command->queryScalar()
+#4 [inte=
+rnal function]:
+backend\controllers\PenggunaanAccuController->actionCreat=
+e()
+#5
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/InlineAct=
+ion.php(57):
+call_user_func_array(Array, Array)
+#6
+/home/cvajm/public=
+_html/cvajm/vendor/yiisoft/yii2/base/Controller.php(157):
+yii\base\Inline=
+Action->runWithParams(Array)
+#7
+/home/cvajm/public_html/cvajm/vendor/yi=
+isoft/yii2/base/Module.php(528):
+yii\base\Controller->runAction('create',=
+ Array)
+#8
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/web/Applic=
+ation.php(103):
+yii\base\Module->runAction('penggunaan-accu...', Array)=
+
+#9
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Application.=
+php(386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#=
+10 /home/cvajm/public_html/cvajm/backend/web/index.php(22):
+yii\base\Appl=
+ication->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0]=
+ =3D> 42S22
+    [1] =3D> 1054
+    [2] =3D> Unknown column 'harga_accu' =
+in 'field list'
+)
+
+2020-03-13 00:16:56
+[36.72.219.58][36][aq3h77ib9=
+nbt4f44bqrmdrren7][info][application]
+$_GET =3D [
+    'r' =3D> 'penggun=
+aan-accu/create'
+]
+
+$_POST =3D [
+    '_csrf-backend' =3D>
+'aF5AsY=
+-nvwdfhC6WAT2kjnoWMt1LlP1lf_t2GJ7c7DguLBOExODlfS7lVsZIVZK3AnFxlS_GlVc2oQNp2=
+LOAYQ=3D=3D'
+    'PenggunaanAccu' =3D> [
+        'nomor_surat' =3D> '20=
+85'
+        'id_ba_perbaikan' =3D> '2161'
+        'nomor_seri_baru' =3D=
+> '2711199'
+        'id_accu_detail' =3D> '2'
+        'unit' =3D> 'DA 8=
+131 HB'
+        'id_unit' =3D> '32'
+        'driver' =3D> 'ABDUL SALAM'=
+
+        'id_karyawan' =3D> '272'
+        'nomor_seri_lama' =3D> 'qwe12=
+3123'
+        'tanggal_pasang_sekarang' =3D> '2020-03-13'
+        'juml=
+ah_pasang' =3D> '1'
+        'keterangan' =3D> ''
+    ]
+]
+
+$_FILES=
+ =3D []
+
+$_COOKIE =3D [
+    'advanced-backend' =3D> 'aq3h77ib9nbt4f44=
+bqrmdrren7'
+    '_csrf-backend' =3D>
+'f84615e0a526890900c3555120c132f6c=
+e0e8392d8f0914b2681782f078be851a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"F=
+rS5KGZzqaxPIh69xgCHdRh2IZuqFolY\";}'
+]
+
+$_SESSION =3D [
+    '__flas=
+h' =3D> []
+    '__returnUrl' =3D> '/cvajm/backend/web/index.php'
+    'u=
+ser_role' =3D> [
+        0 =3D> 'SYSTEM ADMINISTRATOR'
+    ]
+    'use=
+r_role_id' =3D> [
+        0 =3D> 1
+    ]
+    '__id' =3D> 36
+]
+
+=
+$_SERVER =3D [
+    'USER' =3D> 'cvajm'
+    'HOME' =3D> '/home/cvajm'
+=
+    'SCRIPT_NAME' =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_URI' =
+=3D>
+'/cvajm/backend/web/index.php?r=3Dpenggunaan-accu%2Fcreate'
+    'Q=
+UERY_STRING' =3D> 'r=3Dpenggunaan-accu%2Fcreate'
+    'REQUEST_METHOD' =3D=
+> 'POST'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =
+=3D> 'CGI/1.1'
+    'REMOTE_PORT' =3D> '44464'
+    'SCRIPT_FILENAME' =3D=
+>
+'/home/cvajm/public_html/cvajm/backend/web/index.php'
+    'SERVER_ADM=
+IN' =3D> '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/home/cva=
+jm/public_html'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> =
+'http'
+    'DOCUMENT_ROOT' =3D> '/home/cvajm/public_html'
+    'REMOTE_A=
+DDR' =3D> '36.72.219.58'
+    'SERVER_PORT' =3D> '80'
+    'SERVER_ADDR' =
+=3D> '178.128.25.198'
+    'SERVER_NAME' =3D> 'cvajm.com'
+    'SERVER_SO=
+FTWARE' =3D> 'Apache/2.4.25'
+    'SERVER_SIGNATURE' =3D> ''
+    'PATH' =
+=3D>
+'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+   =
+ 'HTTP_COOKIE' =3D> 'advanced-backend=3Daq3h77ib9nbt4f44bqrmdrren7;
+_csrf=
+-backend=3Df84615e0a526890900c3555120c132f6ce0e8392d8f0914b2681782f078be851=
+a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22FrS5K=
+GZzqaxPIh69xgCHdRh2IZuqFolY%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'id=
+-ID,id;q=3D0.9,en-US;q=3D0.8,en;q=3D0.7'
+    'HTTP_ACCEPT_ENCODING' =3D> =
+'gzip, deflate'
+    'HTTP_REFERER' =3D>
+'http://cvajm.com/cvajm/backend=
+/web/index.php?r=3Dpenggunaan-accu%2Fcreate'
+    'HTTP_ACCEPT' =3D>
+'te=
+xt/html,application/xhtml+xml,application/xml;q=3D0.9,image/webp,image/apng=
+,*/*;q=3D0.8,application/signed-exchange;v=3Db3;q=3D0.9'
+    'HTTP_USER_A=
+GENT' =3D> 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)
+AppleWebKit/537.36 (=
+KHTML, like Gecko) Chrome/80.0.3987.132
+Safari/537.36'
+    'CONTENT_TYP=
+E' =3D> 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_RE=
+QUESTS' =3D> '1'
+    'HTTP_ORIGIN' =3D> 'http://cvajm.com'
+    'HTTP_CA=
+CHE_CONTROL' =3D> 'max-age=3D0'
+    'CONTENT_LENGTH' =3D> '576'
+    'HT=
+TP_CONNECTION' =3D> 'keep-alive'
+    'HTTP_HOST' =3D> 'cvajm.com'
+    '=
+proxy-nokeepalive' =3D> '1'
+    'SCRIPT_URI' =3D> 'http://cvajm.com/cvajm=
+/backend/web/index.php'
+    'SCRIPT_URL' =3D> '/cvajm/backend/web/index.p=
+hp'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/cvajm/backen=
+d/web/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1584029816.2293
+    'REQ=
+UEST_TIME' =3D> 1584029816
+]

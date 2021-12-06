@@ -1,0 +1,438 @@
+Message-ID: <cbbd750c26f4f05e40d8880bde06bdcf@cvajm.com>
+Date: Wed, 15 Apr 2020 13:57:41 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-04-15 13:57:41
+[114.5.104.130][2][gbkp5bfb9mq9bkhj6pacbsu5r4][error]=
+[yii\db\Exception]
+PDOException: SQLSTATE[42S22]: Column not found: 1054 =
+Unknown column
+'spring_per.nama-spring_per' in 'where clause' in
+/home/=
+cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php:1290
+Stack tra=
+ce:
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php=
+(1290):
+PDOStatement->execute()
+#1
+/home/cvajm/public_html/cvajm/vend=
+or/yiisoft/yii2/db/Command.php(1158):
+yii\db\Command->internalExecute('SE=
+LECT COUNT(*)...')
+#2
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2=
+/db/Command.php(425):
+yii\db\Command->queryInternal('fetchColumn', 0)
+#=
+3
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Query.php(463):
+=
+yii\db\Command->queryScalar()
+#4
+/home/cvajm/public_html/cvajm/vendor/y=
+iisoft/yii2/db/ActiveQuery.php(352):
+yii\db\Query->queryScalar('COUNT(*)'=
+, Object(yii\db\Connection))
+#5
+/home/cvajm/public_html/cvajm/vendor/yi=
+isoft/yii2/db/Query.php(347):
+yii\db\ActiveQuery->queryScalar('COUNT(*)',=
+ Object(yii\db\Connection))
+#6
+/home/cvajm/public_html/cvajm/vendor/yii=
+soft/yii2/data/ActiveDataProvider.php(169):
+yii\db\Query->count('*', NULL=
+)
+#7
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/data/BaseDataPro=
+vider.php(169):
+yii\data\ActiveDataProvider->prepareTotalCount()
+#8
+/=
+home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-grid/src/GridView.php(175=
+4):
+yii\data\BaseDataProvider->getTotalCount()
+#9
+/home/cvajm/public_=
+html/cvajm/vendor/kartik-v/yii2-grid/src/GridView.php(1163):
+kartik\grid\=
+GridView->initToggleData()
+#10
+/home/cvajm/public_html/cvajm/vendor/yii=
+soft/yii2/base/Widget.php(140):
+kartik\grid\GridView->run()
+#11
+/home=
+/cvajm/public_html/cvajm/backend/views/spring-per-stok/index.php(24):
+yii=
+\base\Widget::widget(Array)
+#12
+/home/cvajm/public_html/cvajm/vendor/yi=
+isoft/yii2/base/View.php(348):
+require('/home/cvajm/pub...')
+#13
+/hom=
+e/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(257):
+yii\bas=
+e\View->renderPhpFile('/home/cvajm/pub...', '[<span
+class=3D"s...')
+#14=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(156):
+=
+yii\base\View->renderFile('/home/cvajm/pub...', Array,
+Object(backend\con=
+trollers\SpringPerStokController))
+#15
+/home/cvajm/public_html/cvajm/ve=
+ndor/yiisoft/yii2/base/Controller.php(384):
+yii\base\View->render('index'=
+, Array,
+Object(backend\controllers\SpringPerStokController))
+#16
+/ho=
+me/cvajm/public_html/cvajm/backend/controllers/SpringPerStokController.php(=
+43):
+yii\base\Controller->render('index', Array)
+#17 [internal function=
+]:
+backend\controllers\SpringPerStokController->actionIndex()
+#18
+/ho=
+me/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/InlineAction.php(57):=
+
+call_user_func_array(Array, Array)
+#19
+/home/cvajm/public_html/cvajm=
+/vendor/yiisoft/yii2/base/Controller.php(157):
+yii\base\InlineAction->run=
+WithParams(Array)
+#20
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2=
+/base/Module.php(528):
+yii\base\Controller->runAction('', Array)
+#21
+=
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/web/Application.php(103):=
+
+yii\base\Module->runAction('spring-per-stok', Array)
+#22
+/home/cvajm=
+/public_html/cvajm/vendor/yiisoft/yii2/base/Application.php(386):
+yii\web=
+\Application->handleRequest(Object(yii\web\Request))
+#23 /home/cvajm/publ=
+ic_html/cvajm/backend/web/index.php(22):
+yii\base\Application->run()
+#2=
+4 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 105=
+4 Unknown
+column 'spring_per.nama-spring_per' in 'where clause'
+The SQL=
+ being executed was: SELECT COUNT(*) FROM `spring_per_stok`
+LEFT JOIN `sp=
+ring_per` ON `spring_per_stok`.`id_spring_per` =3D
+`spring_per`.`id_sprin=
+g_per` WHERE `spring_per`.`nama-spring_per` LIKE
+'%spring%' in
+/home/cv=
+ajm/public_html/cvajm/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:=
+
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(12=
+95):
+yii\db\Schema->convertException(Object(PDOException), 'SELECT
+COUN=
+T(*)...')
+#1
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Comma=
+nd.php(1158):
+yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(425):=
+
+yii\db\Command->queryInternal('fetchColumn', 0)
+#3
+/home/cvajm/publi=
+c_html/cvajm/vendor/yiisoft/yii2/db/Query.php(463):
+yii\db\Command->query=
+Scalar()
+#4
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Active=
+Query.php(352):
+yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Conne=
+ction))
+#5
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Query.p=
+hp(347):
+yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connec=
+tion))
+#6
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/data/Active=
+DataProvider.php(169):
+yii\db\Query->count('*', NULL)
+#7
+/home/cvajm/=
+public_html/cvajm/vendor/yiisoft/yii2/data/BaseDataProvider.php(169):
+yii=
+\data\ActiveDataProvider->prepareTotalCount()
+#8
+/home/cvajm/public_htm=
+l/cvajm/vendor/kartik-v/yii2-grid/src/GridView.php(1754):
+yii\data\BaseDa=
+taProvider->getTotalCount()
+#9
+/home/cvajm/public_html/cvajm/vendor/kar=
+tik-v/yii2-grid/src/GridView.php(1163):
+kartik\grid\GridView->initToggleD=
+ata()
+#10
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Widget=
+.php(140):
+kartik\grid\GridView->run()
+#11
+/home/cvajm/public_html/cv=
+ajm/backend/views/spring-per-stok/index.php(24):
+yii\base\Widget::widget(=
+Array)
+#12
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.=
+php(348):
+require('/home/cvajm/pub...')
+#13
+/home/cvajm/public_html/c=
+vajm/vendor/yiisoft/yii2/base/View.php(257):
+yii\base\View->renderPhpFile=
+('/home/cvajm/pub...', '[<span
+class=3D"s...')
+#14
+/home/cvajm/public=
+_html/cvajm/vendor/yiisoft/yii2/base/View.php(156):
+yii\base\View->render=
+File('/home/cvajm/pub...', Array,
+Object(backend\controllers\SpringPerSto=
+kController))
+#15
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/bas=
+e/Controller.php(384):
+yii\base\View->render('index', Array,
+Object(bac=
+kend\controllers\SpringPerStokController))
+#16
+/home/cvajm/public_html/=
+cvajm/backend/controllers/SpringPerStokController.php(43):
+yii\base\Contr=
+oller->render('index', Array)
+#17 [internal function]:
+backend\controll=
+ers\SpringPerStokController->actionIndex()
+#18
+/home/cvajm/public_html/=
+cvajm/vendor/yiisoft/yii2/base/InlineAction.php(57):
+call_user_func_array=
+(Array, Array)
+#19
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/ba=
+se/Controller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#20=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Module.php(528):=
+
+yii\base\Controller->runAction('', Array)
+#21
+/home/cvajm/public_htm=
+l/cvajm/vendor/yiisoft/yii2/web/Application.php(103):
+yii\base\Module->ru=
+nAction('spring-per-stok', Array)
+#22
+/home/cvajm/public_html/cvajm/ven=
+dor/yiisoft/yii2/base/Application.php(386):
+yii\web\Application->handleRe=
+quest(Object(yii\web\Request))
+#23 /home/cvajm/public_html/cvajm/backend/=
+web/index.php(22):
+yii\base\Application->run()
+#24 {main}
+Additional =
+Information:
+Array
+(
+    [0] =3D> 42S22
+    [1] =3D> 1054
+    [2]=
+ =3D> Unknown column 'spring_per.nama-spring_per' in 'where
+clause'
+)=
+
+
+2020-04-15 13:57:41
+[114.5.104.130][2][gbkp5bfb9mq9bkhj6pacbsu5r4][=
+info][application]
+$_GET =3D [
+    'SpringPerStokSearch' =3D> [
+     =
+   'id_spring_per' =3D> 'spring'
+        'stok' =3D> ''
+    ]
+    'r'=
+ =3D> 'spring-per-stok'
+]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_C=
+OOKIE =3D [
+    'advanced-backend' =3D> 'gbkp5bfb9mq9bkhj6pacbsu5r4'
+  =
+  '_csrf-backend' =3D>
+'6c970c0df730af9291b5a4be8d0f013745ac328ba8d7b11ab=
+62fa7ee2465ba04a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"wDuigfR1Ywxpi5GRf=
+xKV_dW01lS7rf_3\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+   =
+ '__returnUrl' =3D> '/cvajm/backend/web/index.php'
+    'user_role' =3D> [=
+
+        0 =3D> 'ADMIN'
+        1 =3D> 'CHECKER'
+        2 =3D> 'FINA=
+NCE'
+        3 =3D> 'GPS'
+        4 =3D> 'HRD'
+        5 =3D> 'INVOIC=
+E'
+        6 =3D> 'KORLAP'
+        7 =3D> 'LOGISTIC'
+        8 =3D> '=
+PEMESANAN'
+        9 =3D> 'PURCHASING'
+        10 =3D> 'SURAT JALAN'
+=
+        11 =3D> 'SYSTEM ADMINISTRATOR'
+        12 =3D> 'TAMBANG'
+      =
+  13 =3D> 'WORKSHOP'
+    ]
+    'user_role_id' =3D> [
+        0 =3D> 2=
+
+        1 =3D> 6
+        2 =3D> 3
+        3 =3D> 7
+        4 =3D> =
+14
+        5 =3D> 8
+        6 =3D> 9
+        7 =3D> 11
+        8 =
+=3D> 5
+        9 =3D> 12
+        10 =3D> 4
+        11 =3D> 1
+      =
+  12 =3D> 13
+        13 =3D> 10
+    ]
+    '__id' =3D> 2
+]
+
+$_SE=
+RVER =3D [
+    'USER' =3D> 'cvajm'
+    'HOME' =3D> '/home/cvajm'
+    =
+'SCRIPT_NAME' =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_URI' =3D>=
+
+'/cvajm/backend/web/index.php?SpringPerStokSearch%5Bid_spring_per%5D=3Ds=
+pring&SpringPerStokSearch%5Bstok%5D=3D&r=3Dspring-per-stok'
+    'QUERY_ST=
+RING' =3D>
+'SpringPerStokSearch%5Bid_spring_per%5D=3Dspring&SpringPerStok=
+Search%5Bstok%5D=3D&r=3Dspring-per-stok'
+    'REQUEST_METHOD' =3D> 'GET'=
+
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CG=
+I/1.1'
+    'REMOTE_PORT' =3D> '63715'
+    'SCRIPT_FILENAME' =3D>
+'/ho=
+me/cvajm/public_html/cvajm/backend/web/index.php'
+    'SERVER_ADMIN' =3D>=
+ '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/home/cvajm/publi=
+c_html'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'https'=
+
+    'DOCUMENT_ROOT' =3D> '/home/cvajm/public_html'
+    'REMOTE_ADDR' =
+=3D> '114.5.104.130'
+    'SERVER_PORT' =3D> '443'
+    'SERVER_ADDR' =3D=
+> '178.128.25.198'
+    'SERVER_NAME' =3D> 'cvajm.com'
+    'SERVER_SOFTW=
+ARE' =3D> 'Apache/2.4.25'
+    'SERVER_SIGNATURE' =3D> ''
+    'PATH' =3D=
+>
+'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'H=
+TTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_COOKIE' =3D> 'advanced-=
+backend=3Dgbkp5bfb9mq9bkhj6pacbsu5r4;
+_csrf-backend=3D6c970c0df730af9291b=
+5a4be8d0f013745ac328ba8d7b11ab62fa7ee2465ba04a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%2=
+2_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22wDuigfR1Ywxpi5GRfxKV_dW01lS7rf_3%22=
+%3B%7D'
+    'HTTP_REFERER' =3D>
+'https://cvajm.com/cvajm/backend/web/in=
+dex.php?r=3Dspring-per-stok'
+    'HTTP_CONNECTION' =3D> 'keep-alive'
+  =
+  'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUA=
+GE' =3D> 'en-US,en;q=3D0.5'
+    'HTTP_ACCEPT' =3D>
+'text/html,applicati=
+on/xhtml+xml,application/xml;q=3D0.9,image/webp,*/*;q=3D0.8'
+    'HTTP_US=
+ER_AGENT' =3D> 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64;
+rv:75.0) Gecko/20=
+100101 Firefox/75.0'
+    'HTTP_HOST' =3D> 'cvajm.com'
+    'proxy-nokeep=
+alive' =3D> '1'
+    'SSL_TLS_SNI' =3D> 'cvajm.com'
+    'HTTPS' =3D> 'on=
+'
+    'SCRIPT_URI' =3D> 'https://cvajm.com/cvajm/backend/web/index.php'=
+
+    'SCRIPT_URL' =3D> '/cvajm/backend/web/index.php'
+    'FCGI_ROLE' =
+=3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/cvajm/backend/web/index.php'
+   =
+ 'REQUEST_TIME_FLOAT' =3D> 1586930261.6157
+    'REQUEST_TIME' =3D> 158693=
+0261
+]

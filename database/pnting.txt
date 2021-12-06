@@ -1,0 +1,11 @@
+ganti logo login
+backend/views/site/login.php
+
+ganti baground login
+backend/views/layouts/main-login.php
+
+tambah privileges(user akun di database)
+username : cek
+hostname : localhost
+password : cek123
+trus centang semua ijin

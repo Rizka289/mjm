@@ -1,0 +1,733 @@
+Message-ID: <18256c0cd63d4e88317c6f5d2529ad2f@cvajm.com>
+Date: Sat, 11 Apr 2020 17:15:15 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-04-11 17:15:15
+[180.248.132.153][19][voivub9nudbt7otefjug4bsra0][err=
+or][yii\db\Exception]
+PDOException: SQLSTATE[42S22]: Column not found: 10=
+54 Unknown column
+'penggunaan_spare_part.id_nama_spare_part' in 'where cl=
+ause' in
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php=
+:1290
+Stack trace:
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yi=
+i2/db/Command.php(1290):
+PDOStatement->execute()
+#1
+/home/cvajm/publi=
+c_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1158):
+yii\db\Command->in=
+ternalExecute('\n              ...')
+#2
+/home/cvajm/public_html/cvajm/v=
+endor/yiisoft/yii2/db/Command.php(386):
+yii\db\Command->queryInternal('')=
+
+#3
+/home/cvajm/public_html/cvajm/backend/views/logistik-keluar/laporan=
+_biaya_perbaikan.php(292):
+yii\db\Command->query()
+#4
+/home/cvajm/pub=
+lic_html/cvajm/vendor/yiisoft/yii2/base/View.php(348):
+require('/home/cva=
+jm/pub...')
+#5
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/V=
+iew.php(257):
+yii\base\View->renderPhpFile('/home/cvajm/pub...', '[<span=
+
+class=3D"s...')
+#6
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2=
+/base/View.php(156):
+yii\base\View->renderFile('/home/cvajm/pub...', Arra=
+y,
+Object(backend\controllers\LogistikKeluarController))
+#7
+/home/cva=
+jm/public_html/cvajm/vendor/yiisoft/yii2/base/Controller.php(384):
+yii\ba=
+se\View->render('laporan_biaya_p...', Array,
+Object(backend\controllers\L=
+ogistikKeluarController))
+#8
+/home/cvajm/public_html/cvajm/backend/cont=
+rollers/LogistikKeluarController.php(226):
+yii\base\Controller->render('l=
+aporan_biaya_p...', Array)
+#9 [internal function]:
+backend\controllers\=
+LogistikKeluarController->actionLaporanBiayaPerbaikan()
+#10
+/home/cvajm=
+/public_html/cvajm/vendor/yiisoft/yii2/base/InlineAction.php(57):
+call_us=
+er_func_array(Array, Array)
+#11
+/home/cvajm/public_html/cvajm/vendor/yi=
+isoft/yii2/base/Controller.php(157):
+yii\base\InlineAction->runWithParams=
+(Array)
+#12
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Modu=
+le.php(528):
+yii\base\Controller->runAction('laporan-biaya-p...', Array)=
+
+#13
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/web/Application.=
+php(103):
+yii\base\Module->runAction('logistik-keluar...', Array)
+#14=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Application.php(3=
+86):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /h=
+ome/cvajm/public_html/cvajm/backend/web/index.php(22):
+yii\base\Applicati=
+on->run()
+#16 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column =
+not found: 1054 Unknown
+column 'penggunaan_spare_part.id_nama_spare_part'=
+ in 'where clause'
+The SQL being executed was:=20
+                       =
+                 SELECT
+ba_perbaikan.nomor_surat, unit.nopol, karyawan.na=
+ma,
+pemakaian_ban.tgl_pasang as tanggal, ban.harga,=20
+                  =
+                      jenis_ban.jenis_ban as
+sparepart, 1 as qty, 'PCS' a=
+s uom, group_unit.group_unit,
+                                        (se=
+lect
+GROUP_CONCAT(keterangan SEPARATOR ', ') from workshop_permintaan whe=
+re
+id_workshop in (select id_workshop from workshop where id_ba_perbaikan=
+
+=3D ba_perbaikan.id_ba_perbaikan) ) as nama_jasa,
+                    =
+                    (select case when
+sum(jumlah*harga) is null then 0 el=
+se sum(jumlah*harga) end as jasa
+from workshop_permintaan where id_worksh=
+op in (select id_workshop from
+workshop where id_ba_perbaikan =3D ba_perb=
+aikan.id_ba_perbaikan) ) as
+jasa
+                                      =
+  FROM pemakaian_ban
+                                        LEFT JOIN ba=
+_perbaikan ON
+ba_perbaikan.id_ba_perbaikan =3D pemakaian_ban.id_ba_perbai=
+kan
+                                        LEFT JOIN unit ON unit.id_uni=
+t
+=3D pemakaian_ban.id_unit
+                                        LEF=
+T JOIN group_unit ON
+group_unit.id_group_unit =3D unit.id_group_unit
+  =
+                                      LEFT JOIN karyawan ON
+karyawan.id_k=
+aryawan =3D pemakaian_ban.id_karyawan
+                                   =
+     LEFT JOIN ban_detail ON
+ban_detail.id_ban_detail =3D pemakaian_ban.i=
+d_ban_detail
+                                        LEFT JOIN ban ON ban=
+.id_ban =3D
+ban_detail.id_ban
+                                        L=
+EFT JOIN jenis_ban ON
+jenis_ban.id_jenis_ban =3D pemakaian_ban.id_jenis_b=
+an
+                                        WHERE date_format(tgl_pasang, =
+
+'%Y-%m-%d')
+                                        BETWEEN '' AND ''=
+
+                                        AND unit.nopol like '%%'
+     =
+                                   AND group_unit.group_unit like
+'%%'
+=
+                                       =20
+                                =
+        UNION
+
+                                        SELECT
+ba_perb=
+aikan.nomor_surat, unit.nopol, karyawan.nama,
+penggunaan_accu.tanggal_pas=
+ang_sekarang as tanggal, accu.harga,
+                                    =
+    accu.nama_accu as sparepart,
+penggunaan_accu.jumlah_pasang as qty, 'P=
+CS' as uom,
+group_unit.group_unit,
+                                    =
+    (select
+GROUP_CONCAT(keterangan SEPARATOR ', ') from workshop_permint=
+aan where
+id_workshop in (select id_workshop from workshop where id_ba_pe=
+rbaikan
+=3D ba_perbaikan.id_ba_perbaikan) ) as nama_jasa,
+             =
+                           (select case when
+sum(jumlah*harga) is null th=
+en 0 else sum(jumlah*harga) end as jasa
+from workshop_permintaan where id=
+_workshop in (select id_workshop from
+workshop where id_ba_perbaikan =3D =
+ba_perbaikan.id_ba_perbaikan) ) as
+jasa
+                               =
+        =20
+                                        FROM penggunaan_accu
+=
+                                        LEFT JOIN ba_perbaikan ON
+ba_perb=
+aikan.id_ba_perbaikan =3D penggunaan_accu.id_ba_perbaikan
+               =
+                         LEFT JOIN unit ON unit.id_unit
+=3D penggunaan_ac=
+cu.id_unit
+                                        LEFT JOIN group_unit O=
+N
+group_unit.id_group_unit =3D unit.id_group_unit
+                     =
+                   LEFT JOIN karyawan ON
+karyawan.id_karyawan =3D penggun=
+aan_accu.id_karyawan
+                                        LEFT JOIN ac=
+cu_detail ON
+accu_detail.id_accu_detail =3D penggunaan_accu.id_accu_detai=
+l
+                                        LEFT JOIN accu ON accu.id_accu=
+
+=3D accu_detail.id_accu
+                                        WHERE=
+
+date_format(tanggal_pasang_sekarang,  '%Y-%m-%d')
+                    =
+                    BETWEEN '' AND ''
+                                   =
+     AND unit.nopol like '%%'
+                                        AND=
+ group_unit.group_unit like
+'%%'
+
+                                   =
+     UNION
+
+                                        SELECT
+ba_perbaik=
+an.nomor_surat, unit.nopol, karyawan.nama,
+penggunaan_baut_roda.tanggal_p=
+asang_sekarang as tanggal,=20
+baut_roda.harga,
+                          =
+              baut_roda.nama_baut_roda as
+sparepart, penggunaan_baut_roda=
+.jumlah_pasang as qty, 'PCS' as uom,
+group_unit.group_unit,
+           =
+                             (select
+GROUP_CONCAT(keterangan SEPARATOR ',=
+ ') from workshop_permintaan where
+id_workshop in (select id_workshop fro=
+m workshop where id_ba_perbaikan
+=3D ba_perbaikan.id_ba_perbaikan) ) as n=
+ama_jasa,
+                                        (select case when
+sum=
+(jumlah*harga) is null then 0 else sum(jumlah*harga) end as jasa
+from wor=
+kshop_permintaan where id_workshop in (select id_workshop from
+workshop w=
+here id_ba_perbaikan =3D ba_perbaikan.id_ba_perbaikan) ) as
+jasa
+      =
+                                 =20
+                                      =
+  FROM penggunaan_baut_roda
+                                        LEFT =
+JOIN ba_perbaikan ON
+ba_perbaikan.id_ba_perbaikan =3D penggunaan_baut_rod=
+a.id_ba_perbaikan
+                                        LEFT JOIN unit =
+ON unit.id_unit
+=3D penggunaan_baut_roda.id_unit
+                      =
+                  LEFT JOIN group_unit ON
+group_unit.id_group_unit =3D un=
+it.id_group_unit
+                                        LEFT JOIN karyaw=
+an ON
+karyawan.id_karyawan =3D penggunaan_baut_roda.id_karyawan
+       =
+                                 LEFT JOIN baut_roda ON
+baut_roda.id_baut=
+_roda =3D penggunaan_baut_roda.id_baut_roda
+                             =
+           WHERE
+date_format(tanggal_pasang_sekarang,  '%Y-%m-%d')
+    =
+                                    BETWEEN '' AND ''
+                   =
+                     AND unit.nopol like '%%'
+                           =
+             AND group_unit.group_unit like
+'%%'
+
+                   =
+                     UNION
+                                        SELECT=
+
+ba_perbaikan.nomor_surat, unit.nopol, karyawan.nama,=20
+penggunaan_sprin=
+g_per.tanggal_pasang_sekarang as tanggal,
+spring_per.harga,
+           =
+                             spring_per.nama_spring_per as
+sparepart,  pe=
+nggunaan_spring_per.jumlah_pasang as qty, 'PCS' as uom,
+group_unit.group_=
+unit,
+                                        (select
+GROUP_CONCAT(kete=
+rangan SEPARATOR ', ') from workshop_permintaan where
+id_workshop in (sel=
+ect id_workshop from workshop where id_ba_perbaikan
+=3D ba_perbaikan.id_b=
+a_perbaikan) ) as nama_jasa,
+                                        (sel=
+ect case when
+sum(jumlah*harga) is null then 0 else sum(jumlah*harga) end=
+ as jasa
+from workshop_permintaan where id_workshop in (select id_worksho=
+p from
+workshop where id_ba_perbaikan =3D ba_perbaikan.id_ba_perbaikan) )=
+ as
+jasa
+                                       =20
+                   =
+                     FROM penggunaan_spring_per
+                         =
+               LEFT JOIN ba_perbaikan ON
+ba_perbaikan.id_ba_perbaikan =3D=
+ penggunaan_spring_per.id_ba_perbaikan
+                                  =
+      LEFT JOIN unit ON unit.id_unit
+=3D penggunaan_spring_per.id_unit
+=
+                                        LEFT JOIN group_unit ON
+group_uni=
+t.id_group_unit =3D unit.id_group_unit
+                                  =
+      LEFT JOIN karyawan ON
+karyawan.id_karyawan =3D penggunaan_spring_pe=
+r.id_karyawan
+                                        LEFT JOIN spring_pe=
+r ON
+spring_per.id_spring_per =3D penggunaan_spring_per.id_spring_per
+ =
+                                       WHERE
+date_format(tanggal_pasang_s=
+ekarang,  '%Y-%m-%d')
+                                        BETWEEN '' =
+AND ''
+                                        AND unit.nopol like '%%'=
+
+                                        AND group_unit.group_unit like=
+
+'%%'
+
+                                        UNION
+
+           =
+                             SELECT
+ba_perbaikan.nomor_surat, unit.nopol,=
+
+karyawan.nama,penggunaan_velg.tanggal_pasang_sekarang as tanggal,=20
+vel=
+g.harga,
+                                        velg.nama_velg as sparep=
+art,
+penggunaan_velg.jumlah_pasang as qty, 'PCS' as uom,
+group_unit.gro=
+up_unit,
+                                        (select
+GROUP_CONCAT(k=
+eterangan SEPARATOR ', ') from workshop_permintaan where
+id_workshop in (=
+select id_workshop from workshop where id_ba_perbaikan
+=3D ba_perbaikan.i=
+d_ba_perbaikan) ) as nama_jasa,
+                                        (=
+select case when
+sum(jumlah*harga) is null then 0 else sum(jumlah*harga) =
+end as jasa
+from workshop_permintaan where id_workshop in (select id_work=
+shop from
+workshop where id_ba_perbaikan =3D ba_perbaikan.id_ba_perbaikan=
+) ) as
+jasa
+                                       =20
+                =
+                        FROM penggunaan_velg
+                            =
+            LEFT JOIN ba_perbaikan ON
+ba_perbaikan.id_ba_perbaikan =3D pe=
+nggunaan_velg.id_ba_perbaikan
+                                        LEF=
+T JOIN unit ON unit.id_unit
+=3D penggunaan_velg.id_unit
+               =
+                         LEFT JOIN group_unit ON
+group_unit.id_group_unit=
+ =3D unit.id_group_unit
+                                        LEFT JOIN=
+ karyawan ON
+karyawan.id_karyawan =3D penggunaan_velg.id_karyawan
+     =
+                                   LEFT JOIN velg_detail ON
+velg_detail.i=
+d_velg_detail =3D penggunaan_velg.id_velg_detail
+                        =
+                LEFT JOIN velg ON velg.id_velg
+=3D velg_detail.id_velg
+=
+                                        WHERE
+date_format(tanggal_pasang_=
+sekarang,  '%Y-%m-%d')
+                                        BETWEEN ''=
+ AND ''
+                                        AND unit.nopol like '%%'=
+
+                                        AND group_unit.group_unit like=
+
+'%%'
+
+                                        UNION
+              =
+                         =20
+                                        SELECT=
+
+ba_perbaikan.nomor_surat, unit.nopol, karyawan.nama,
+penggunaan_spare_=
+part.tanggal, (select harga from spare_part where
+id_nama_spare_part =3D =
+penggunaan_spare_part.id_nama_spare_part order by
+id_spare_part desc limi=
+t 1) as harga,
+                                      =20
+nama_spare_part.=
+nama_spare_part as sparepart,=20
+penggunaan_spare_part.jumlah_penggunaan as=
+ qty,  'PCS' as uom,
+group_unit.group_unit,
+                           =
+             (select
+GROUP_CONCAT(keterangan SEPARATOR ', ') from worksho=
+p_permintaan where
+id_workshop in (select id_workshop from workshop where=
+ id_ba_perbaikan
+=3D ba_perbaikan.id_ba_perbaikan) ) as nama_jasa,
+    =
+                                    (select case when
+sum(jumlah*harga) i=
+s null then 0 else sum(jumlah*harga) end as jasa
+from workshop_permintaan=
+ where id_workshop in (select id_workshop from
+workshop where id_ba_perba=
+ikan =3D ba_perbaikan.id_ba_perbaikan) ) as
+jasa
+                      =
+                 =20
+                                        FROM penggunaa=
+n_spare_part
+                                        LEFT JOIN ba_perbaik=
+an ON
+ba_perbaikan.id_ba_perbaikan =3D penggunaan_spare_part.id_ba_perbai=
+kan
+                                        LEFT JOIN unit ON unit.id_uni=
+t
+=3D penggunaan_spare_part.id_unit
+                                   =
+     LEFT JOIN group_unit ON
+group_unit.id_group_unit =3D unit.id_group_u=
+nit
+                                        LEFT JOIN karyawan ON
+karya=
+wan.id_karyawan =3D penggunaan_spare_part.id_karyawan
+                   =
+                     LEFT JOIN spare_part_stok ON
+spare_part_stok.id_nama=
+_spare_part =3D
+penggunaan_spare_part.id_nama_spare_part
+              =
+                          LEFT JOIN nama_spare_part ON
+nama_spare_part.id=
+_nama_spare_part =3D
+spare_part_stok.id_nama_spare_part
+               =
+                         LEFT JOIN spare_part ON
+spare_part.id_spare_part=
+ =3D spare_part_stok.id_spare_part
+                                      =
+  WHERE
+date_format(penggunaan_spare_part.tanggal,  '%Y-%m-%d')
+       =
+                                 BETWEEN '' AND ''
+                      =
+                  AND unit.nopol like '%%'
+                              =
+          AND group_unit.group_unit like
+'%%'
+=09=09=09=09=09=09=09=09=
+=09=09=20
+                                         in
+/home/cvajm/public_=
+html/cvajm/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0
+/hom=
+e/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1295):
+yii\d=
+b\Schema->convertException(Object(PDOException), '\n            =20
+...')=
+
+#1
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(11=
+58):
+yii\db\Command->internalExecute('\n              ...')
+#2
+/home/=
+cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(386):
+yii\db\C=
+ommand->queryInternal('')
+#3
+/home/cvajm/public_html/cvajm/backend/view=
+s/logistik-keluar/laporan_biaya_perbaikan.php(292):
+yii\db\Command->query=
+()
+#4
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(3=
+48):
+require('/home/cvajm/pub...')
+#5
+/home/cvajm/public_html/cvajm/v=
+endor/yiisoft/yii2/base/View.php(257):
+yii\base\View->renderPhpFile('/hom=
+e/cvajm/pub...', '[<span
+class=3D"s...')
+#6
+/home/cvajm/public_html/c=
+vajm/vendor/yiisoft/yii2/base/View.php(156):
+yii\base\View->renderFile('/=
+home/cvajm/pub...', Array,
+Object(backend\controllers\LogistikKeluarContr=
+oller))
+#7
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Contr=
+oller.php(384):
+yii\base\View->render('laporan_biaya_p...', Array,
+Obje=
+ct(backend\controllers\LogistikKeluarController))
+#8
+/home/cvajm/public=
+_html/cvajm/backend/controllers/LogistikKeluarController.php(226):
+yii\ba=
+se\Controller->render('laporan_biaya_p...', Array)
+#9 [internal function]=
+:
+backend\controllers\LogistikKeluarController->actionLaporanBiayaPerbaik=
+an()
+#10
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/InlineA=
+ction.php(57):
+call_user_func_array(Array, Array)
+#11
+/home/cvajm/pub=
+lic_html/cvajm/vendor/yiisoft/yii2/base/Controller.php(157):
+yii\base\Inl=
+ineAction->runWithParams(Array)
+#12
+/home/cvajm/public_html/cvajm/vendo=
+r/yiisoft/yii2/base/Module.php(528):
+yii\base\Controller->runAction('lapo=
+ran-biaya-p...', Array)
+#13
+/home/cvajm/public_html/cvajm/vendor/yiisof=
+t/yii2/web/Application.php(103):
+yii\base\Module->runAction('logistik-kel=
+uar...', Array)
+#14
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/b=
+ase/Application.php(386):
+yii\web\Application->handleRequest(Object(yii\w=
+eb\Request))
+#15 /home/cvajm/public_html/cvajm/backend/web/index.php(22):=
+
+yii\base\Application->run()
+#16 {main}
+Additional Information:
+Arr=
+ay
+(
+    [0] =3D> 42S22
+    [1] =3D> 1054
+    [2] =3D> Unknown colu=
+mn 'penggunaan_spare_part.id_nama_spare_part'
+in 'where clause'
+)
+
+=
+2020-04-11 17:15:15
+[180.248.132.153][19][voivub9nudbt7otefjug4bsra0][inf=
+o][application]
+$_GET =3D [
+    'r' =3D> 'logistik-keluar/laporan-biaya=
+-perbaikan'
+]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [=
+
+    'advanced-backend' =3D> 'voivub9nudbt7otefjug4bsra0'
+    '_csrf-ba=
+ckend' =3D>
+'d1886cbefdb640eb02cc0f8e45cc7366aec6fc96ef3e1f2ba7aef3ebfbd6=
+0f7ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"fOKWmPf-4Am54enI2v6QGEhwrRuO=
+u1uI\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+    '__returnU=
+rl' =3D> '/cvajm/backend/web/index.php'
+    'user_role' =3D> [
+        =
+0 =3D> 'PURCHASING'
+        1 =3D> 'LOGISTIC'
+        2 =3D> 'KEPALA LO=
+GISTIK'
+        3 =3D> 'WORKSHOP'
+    ]
+    'user_role_id' =3D> [
+ =
+       0 =3D> 12
+        1 =3D> 11
+        2 =3D> 23
+        3 =3D> 1=
+0
+    ]
+    '__id' =3D> 19
+]
+
+$_SERVER =3D [
+    'USER' =3D> 'c=
+vajm'
+    'HOME' =3D> '/home/cvajm'
+    'SCRIPT_NAME' =3D> '/cvajm/back=
+end/web/index.php'
+    'REQUEST_URI' =3D>
+'/cvajm/backend/web/index.php=
+?r=3Dlogistik-keluar/laporan-biaya-perbaikan'
+    'QUERY_STRING' =3D> 'r=
+=3Dlogistik-keluar/laporan-biaya-perbaikan'
+    'REQUEST_METHOD' =3D> 'GE=
+T'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> '=
+CGI/1.1'
+    'REMOTE_PORT' =3D> '51785'
+    'SCRIPT_FILENAME' =3D>
+'/=
+home/cvajm/public_html/cvajm/backend/web/index.php'
+    'SERVER_ADMIN' =
+=3D> '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/home/cvajm/p=
+ublic_html'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'htt=
+ps'
+    'DOCUMENT_ROOT' =3D> '/home/cvajm/public_html'
+    'REMOTE_ADDR=
+' =3D> '180.248.132.153'
+    'SERVER_PORT' =3D> '443'
+    'SERVER_ADDR'=
+ =3D> '178.128.25.198'
+    'SERVER_NAME' =3D> 'cvajm.com'
+    'SERVER_S=
+OFTWARE' =3D> 'Apache/2.4.25'
+    'SERVER_SIGNATURE' =3D> ''
+    'PATH'=
+ =3D>
+'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+  =
+  'HTTP_COOKIE' =3D> 'advanced-backend=3Dvoivub9nudbt7otefjug4bsra0;
+_csr=
+f-backend=3Dd1886cbefdb640eb02cc0f8e45cc7366aec6fc96ef3e1f2ba7aef3ebfbd60f7=
+ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22fOKW=
+mPf-4Am54enI2v6QGEhwrRuOu1uI%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'e=
+n-US,en;q=3D0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate, br'
+  =
+  'HTTP_REFERER' =3D>
+'https://cvajm.com/cvajm/backend/web/index.php?r=3D=
+workshop-permintaan%2Fprint&id=3D2616&id_workshop=3D3227'
+    'HTTP_SEC_F=
+ETCH_USER' =3D> '?1'
+    'HTTP_SEC_FETCH_MODE' =3D> 'navigate'
+    'HTT=
+P_SEC_FETCH_SITE' =3D> 'same-origin'
+    'HTTP_ACCEPT' =3D>
+'text/html,=
+application/xhtml+xml,application/xml;q=3D0.9,image/webp,image/apng,*/*;q=
+=3D0.8,application/signed-exchange;v=3Db3;q=3D0.9'
+    'HTTP_SEC_FETCH_DE=
+ST' =3D> 'document'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 1=
+0.0)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163
+Safari=
+/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_CONNEC=
+TION' =3D> 'keep-alive'
+    'HTTP_HOST' =3D> 'cvajm.com'
+    'proxy-nok=
+eepalive' =3D> '1'
+    'SSL_TLS_SNI' =3D> 'cvajm.com'
+    'HTTPS' =3D> =
+'on'
+    'SCRIPT_URI' =3D> 'https://cvajm.com/cvajm/backend/web/index.php=
+'
+    'SCRIPT_URL' =3D> '/cvajm/backend/web/index.php'
+    'FCGI_ROLE' =
+=3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/cvajm/backend/web/index.php'
+   =
+ 'REQUEST_TIME_FLOAT' =3D> 1586596515.4542
+    'REQUEST_TIME' =3D> 158659=
+6515
+]

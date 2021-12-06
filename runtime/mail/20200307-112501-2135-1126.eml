@@ -1,0 +1,313 @@
+Message-ID: <89330cec1a32f5f664993f08bb6ef14d@cvajm.com>
+Date: Sat, 07 Mar 2020 11:25:01 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-03-07 11:25:01
+[180.246.82.199][2][mu5a86u68of10evll7a50kovt3][error=
+][yii\db\IntegrityException]
+PDOException: SQLSTATE[23000]: Integrity con=
+straint violation: 1052
+Column 'nomor_seri' in field list is ambiguous in=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php:1290
+=
+Stack trace:
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Co=
+mmand.php(1290):
+PDOStatement->execute()
+#1
+/home/cvajm/public_html/c=
+vajm/vendor/yiisoft/yii2/db/Command.php(1158):
+yii\db\Command->internalEx=
+ecute('SELECT nomor_se...')
+#2
+/home/cvajm/public_html/cvajm/vendor/yii=
+soft/yii2/db/Command.php(425):
+yii\db\Command->queryInternal('fetchColumn=
+', 0)
+#3
+/home/cvajm/public_html/cvajm/backend/controllers/PemakaianBan=
+Controller.php(306):
+yii\db\Command->queryScalar()
+#4 [internal functio=
+n]:
+backend\controllers\PemakaianBanController->actionInputPecah('5')
+#=
+5
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/InlineAction.php=
+(57):
+call_user_func_array(Array, Array)
+#6
+/home/cvajm/public_html/c=
+vajm/vendor/yiisoft/yii2/base/Controller.php(157):
+yii\base\InlineAction-=
+>runWithParams(Array)
+#7
+/home/cvajm/public_html/cvajm/vendor/yiisoft/y=
+ii2/base/Module.php(528):
+yii\base\Controller->runAction('input-pecah', A=
+rray)
+#8
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/web/Applicat=
+ion.php(103):
+yii\base\Module->runAction('pemakaian-ban/i...', Array)
+#=
+9
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Application.php(=
+386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /=
+home/cvajm/public_html/cvajm/backend/web/index.php(22):
+yii\base\Applicat=
+ion->run()
+#11 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000=
+]: Integrity constraint
+violation: 1052 Column 'nomor_seri' in field list=
+ is ambiguous
+The SQL being executed was: SELECT nomor_seri FROM pemakaia=
+n_ban LEFT
+JOIN ban_detail ON ban_detail.id_ban_detail =3D
+pemakaian_ba=
+n.id_ban_detail WHERE pemakaian_ban.id_pemakaian_ban =3D '5'
+in /home/cva=
+jm/public_html/cvajm/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:=
+
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(12=
+95):
+yii\db\Schema->convertException(Object(PDOException), 'SELECT
+nomo=
+r_se...')
+#1
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Comma=
+nd.php(1158):
+yii\db\Command->internalExecute('SELECT nomor_se...')
+#2=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(425):=
+
+yii\db\Command->queryInternal('fetchColumn', 0)
+#3
+/home/cvajm/publi=
+c_html/cvajm/backend/controllers/PemakaianBanController.php(306):
+yii\db\=
+Command->queryScalar()
+#4 [internal function]:
+backend\controllers\Pema=
+kaianBanController->actionInputPecah('5')
+#5
+/home/cvajm/public_html/cv=
+ajm/vendor/yiisoft/yii2/base/InlineAction.php(57):
+call_user_func_array(A=
+rray, Array)
+#6
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/=
+Controller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#7
+/=
+home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Module.php(528):
+yi=
+i\base\Controller->runAction('input-pecah', Array)
+#8
+/home/cvajm/publi=
+c_html/cvajm/vendor/yiisoft/yii2/web/Application.php(103):
+yii\base\Modul=
+e->runAction('pemakaian-ban/i...', Array)
+#9
+/home/cvajm/public_html/cv=
+ajm/vendor/yiisoft/yii2/base/Application.php(386):
+yii\web\Application->h=
+andleRequest(Object(yii\web\Request))
+#10 /home/cvajm/public_html/cvajm/b=
+ackend/web/index.php(22):
+yii\base\Application->run()
+#11 {main}
+Addi=
+tional Information:
+Array
+(
+    [0] =3D> 23000
+    [1] =3D> 1052
+=
+    [2] =3D> Column 'nomor_seri' in field list is ambiguous
+)
+
+2020-0=
+3-07 11:25:01
+[180.246.82.199][2][mu5a86u68of10evll7a50kovt3][info][appli=
+cation]
+$_GET =3D [
+    'r' =3D> 'pemakaian-ban/input-pecah'
+    'id'=
+ =3D> '5'
+]
+
+$_POST =3D [
+    '_csrf-backend' =3D>
+'WA0kP3-lesY60=
+QSU406hbgJWRXZZBlmr4ApKM070u3cBR0NHTPZOlEqQfP-lKOsxQTQ0BRpZHP2CXH91NKzPRw=
+=3D=3D'
+    'PemakaianBan' =3D> [
+        'km_pecah' =3D> '70000'
+   =
+     'tgl_pecah' =3D> '2020-03-07'
+    ]
+]
+
+$_FILES =3D []
+
+$_C=
+OOKIE =3D [
+    'advanced-backend' =3D> 'mu5a86u68of10evll7a50kovt3'
+  =
+  '_csrf-backend' =3D>
+'852ca9909246b7f36c26b27fff21c2fafc2a13f3cc3fbd984=
+ae7e8608f71569ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"YJgx3S4RpAxkFfJ_C=
+bqsC_EVbV5FzXt0\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+   =
+ '__returnUrl' =3D> '/cvajm/backend/web/index.php'
+    'user_role' =3D> [=
+
+        0 =3D> 'ADMIN'
+        1 =3D> 'CHECKER'
+        2 =3D> 'FINA=
+NCE'
+        3 =3D> 'GPS'
+        4 =3D> 'HRD'
+        5 =3D> 'INVOIC=
+E'
+        6 =3D> 'KORLAP'
+        7 =3D> 'LOGISTIC'
+        8 =3D> '=
+PEMESANAN'
+        9 =3D> 'PURCHASING'
+        10 =3D> 'SURAT JALAN'
+=
+        11 =3D> 'SYSTEM ADMINISTRATOR'
+        12 =3D> 'TAMBANG'
+      =
+  13 =3D> 'WORKSHOP'
+    ]
+    'user_role_id' =3D> [
+        0 =3D> 2=
+
+        1 =3D> 6
+        2 =3D> 3
+        3 =3D> 7
+        4 =3D> =
+14
+        5 =3D> 8
+        6 =3D> 9
+        7 =3D> 11
+        8 =
+=3D> 5
+        9 =3D> 12
+        10 =3D> 4
+        11 =3D> 1
+      =
+  12 =3D> 13
+        13 =3D> 10
+    ]
+    '__id' =3D> 2
+]
+
+$_SE=
+RVER =3D [
+    'USER' =3D> 'cvajm'
+    'HOME' =3D> '/home/cvajm'
+    =
+'SCRIPT_NAME' =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_URI' =3D>=
+
+'/cvajm/backend/web/index.php?r=3Dpemakaian-ban%2Finput-pecah&id=3D5'
+=
+    'QUERY_STRING' =3D> 'r=3Dpemakaian-ban%2Finput-pecah&id=3D5'
+    'REQ=
+UEST_METHOD' =3D> 'POST'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GAT=
+EWAY_INTERFACE' =3D> 'CGI/1.1'
+    'REMOTE_PORT' =3D> '27247'
+    'SCRI=
+PT_FILENAME' =3D>
+'/home/cvajm/public_html/cvajm/backend/web/index.php'=
+
+    'SERVER_ADMIN' =3D> '[no address given]'
+    'CONTEXT_DOCUMENT_ROO=
+T' =3D> '/home/cvajm/public_html'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQ=
+UEST_SCHEME' =3D> 'http'
+    'DOCUMENT_ROOT' =3D> '/home/cvajm/public_htm=
+l'
+    'REMOTE_ADDR' =3D> '180.246.82.199'
+    'SERVER_PORT' =3D> '80'=
+
+    'SERVER_ADDR' =3D> '178.128.25.198'
+    'SERVER_NAME' =3D> 'cvajm.=
+com'
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.25'
+    'SERVER_SIGNATURE' =
+=3D> ''
+    'PATH' =3D>
+'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/=
+bin:/sbin:/bin'
+    'HTTP_COOKIE' =3D> 'advanced-backend=3Dmu5a86u68of10e=
+vll7a50kovt3;
+_csrf-backend=3D852ca9909246b7f36c26b27fff21c2fafc2a13f3cc3=
+fbd984ae7e8608f71569ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A=
+1%3Bs%3A32%3A%22YJgx3S4RpAxkFfJ_CbqsC_EVbV5FzXt0%22%3B%7D'
+    'HTTP_ACCE=
+PT_LANGUAGE' =3D> 'en-US,en;q=3D0.9,id;q=3D0.8'
+    'HTTP_ACCEPT_ENCODING=
+' =3D> 'gzip, deflate'
+    'HTTP_REFERER' =3D>
+'http://cvajm.com/cvajm/=
+backend/web/index.php?r=3Dpemakaian-ban%2Finput-pecah&id=3D5'
+    'HTTP_A=
+CCEPT' =3D>
+'text/html,application/xhtml+xml,application/xml;q=3D0.9,imag=
+e/webp,image/apng,*/*;q=3D0.8,application/signed-exchange;v=3Db3;q=3D0.9'=
+
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+=
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122
+Safari/537.36=
+'
+    'CONTENT_TYPE' =3D> 'application/x-www-form-urlencoded'
+    'HTTP=
+_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_ORIGIN' =3D> 'http://cvajm=
+.com'
+    'HTTP_CACHE_CONTROL' =3D> 'max-age=3D0'
+    'CONTENT_LENGTH' =
+=3D> '178'
+    'HTTP_CONNECTION' =3D> 'keep-alive'
+    'HTTP_HOST' =3D>=
+ 'cvajm.com'
+    'proxy-nokeepalive' =3D> '1'
+    'SCRIPT_URI' =3D> 'ht=
+tp://cvajm.com/cvajm/backend/web/index.php'
+    'SCRIPT_URL' =3D> '/cvajm=
+/backend/web/index.php'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF'=
+ =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 158355=
+1501.2
+    'REQUEST_TIME' =3D> 1583551501
+]

@@ -1,0 +1,277 @@
+Message-ID: <4548086f64eebfaca519b13c1ba814cf@cvajm.com>
+Date: Sat, 01 Feb 2020 09:27:45 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-02-01 09:27:45
+[23.227.142.218][36][e3aopfpi0a77uu7pr705stged5][erro=
+r][yii\db\Exception]
+PDOException: SQLSTATE[42S22]: Column not found: 105=
+4 Unknown column
+'nama_terpal' in 'field list' in
+/home/cvajm/public_ht=
+ml/cvajm/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0
+/hom=
+e/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1290):
+PDOSt=
+atement->execute()
+#1
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2=
+/db/Command.php(1158):
+yii\db\Command->internalExecute('SELECT `nama_te..=
+.')
+#2
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php=
+(399):
+yii\db\Command->queryInternal('fetchAll', NULL)
+#3
+/home/cvajm=
+/public_html/cvajm/vendor/yiisoft/yii2/db/Query.php(237):
+yii\db\Command-=
+>queryAll()
+#4
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Act=
+iveQuery.php(133):
+yii\db\Query->all(NULL)
+#5
+/home/cvajm/public_html=
+/cvajm/backend/controllers/PenggunaanTerpalController.php(167):
+yii\db\Ac=
+tiveQuery->all()
+#6 [internal function]:
+backend\controllers\Penggunaan=
+TerpalController->actionUpdate('10')
+#7
+/home/cvajm/public_html/cvajm/v=
+endor/yiisoft/yii2/base/InlineAction.php(57):
+call_user_func_array(Array,=
+ Array)
+#8
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Contr=
+oller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#9
+/home/=
+cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Module.php(528):
+yii\bas=
+e\Controller->runAction('update', Array)
+#10
+/home/cvajm/public_html/cv=
+ajm/vendor/yiisoft/yii2/web/Application.php(103):
+yii\base\Module->runAct=
+ion('penggunaan-terp...', Array)
+#11
+/home/cvajm/public_html/cvajm/vend=
+or/yiisoft/yii2/base/Application.php(386):
+yii\web\Application->handleReq=
+uest(Object(yii\web\Request))
+#12 /home/cvajm/public_html/cvajm/backend/w=
+eb/index.php(22):
+yii\base\Application->run()
+#13 {main}
+
+Next yii\=
+db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown
+column 'nam=
+a_terpal' in 'field list'
+The SQL being executed was: SELECT `nama_terpal=
+` AS `value`,
+`terpal_stok`.`id_terpal` AS `id` FROM `terpal` LEFT JOIN=
+
+`terpal_stok` ON terpal_stok.id_terpal =3D terpal_stok.id_terpal WHERE=
+
+`terpal_stok`.`stok` !=3D 0 in
+/home/cvajm/public_html/cvajm/vendor/yi=
+isoft/yii2/db/Schema.php:664
+Stack trace:
+#0
+/home/cvajm/public_html/=
+cvajm/vendor/yiisoft/yii2/db/Command.php(1295):
+yii\db\Schema->convertExc=
+eption(Object(PDOException), 'SELECT
+`nama_te...')
+#1
+/home/cvajm/pub=
+lic_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1158):
+yii\db\Command->=
+internalExecute('SELECT `nama_te...')
+#2
+/home/cvajm/public_html/cvajm/=
+vendor/yiisoft/yii2/db/Command.php(399):
+yii\db\Command->queryInternal('f=
+etchAll', NULL)
+#3
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db=
+/Query.php(237):
+yii\db\Command->queryAll()
+#4
+/home/cvajm/public_htm=
+l/cvajm/vendor/yiisoft/yii2/db/ActiveQuery.php(133):
+yii\db\Query->all(NU=
+LL)
+#5
+/home/cvajm/public_html/cvajm/backend/controllers/PenggunaanTerp=
+alController.php(167):
+yii\db\ActiveQuery->all()
+#6 [internal function]=
+:
+backend\controllers\PenggunaanTerpalController->actionUpdate('10')
+#7=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/InlineAction.php(=
+57):
+call_user_func_array(Array, Array)
+#8
+/home/cvajm/public_html/cv=
+ajm/vendor/yiisoft/yii2/base/Controller.php(157):
+yii\base\InlineAction->=
+runWithParams(Array)
+#9
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yi=
+i2/base/Module.php(528):
+yii\base\Controller->runAction('update', Array)=
+
+#10
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/web/Application.=
+php(103):
+yii\base\Module->runAction('penggunaan-terp...', Array)
+#11=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Application.php(3=
+86):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /h=
+ome/cvajm/public_html/cvajm/backend/web/index.php(22):
+yii\base\Applicati=
+on->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] =3D>=
+ 42S22
+    [1] =3D> 1054
+    [2] =3D> Unknown column 'nama_terpal' in '=
+field list'
+)
+
+2020-02-01 09:27:45
+[23.227.142.218][36][e3aopfpi0a7=
+7uu7pr705stged5][info][application]
+$_GET =3D [
+    'r' =3D> 'penggunaa=
+n-terpal/update'
+    'id' =3D> '10'
+]
+
+$_POST =3D []
+
+$_FILES =
+=3D []
+
+$_COOKIE =3D [
+    'advanced-backend' =3D> 'e3aopfpi0a77uu7pr=
+705stged5'
+    '_csrf-backend' =3D>
+'482eb509fa1bd49680db40519d9c858548=
+d9d93c481a380af58ea56d49c59f19a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"6C=
+QZpwFW7311rrt_OoFxlGisHPrcEOF7\";}'
+]
+
+$_SESSION =3D [
+    '__flash=
+' =3D> []
+    '__returnUrl' =3D> '/cvajm/backend/web/index.php'
+    'us=
+er_role' =3D> [
+        0 =3D> 'SYSTEM ADMINISTRATOR'
+    ]
+    'user=
+_role_id' =3D> [
+        0 =3D> 1
+    ]
+    '__id' =3D> 36
+]
+
+$=
+_SERVER =3D [
+    'USER' =3D> 'cvajm'
+    'HOME' =3D> '/home/cvajm'
+ =
+   'SCRIPT_NAME' =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_URI' =
+=3D>
+'/cvajm/backend/web/index.php?r=3Dpenggunaan-terpal%2Fupdate&id=3D10=
+'
+    'QUERY_STRING' =3D> 'r=3Dpenggunaan-terpal%2Fupdate&id=3D10'
+    =
+'REQUEST_METHOD' =3D> 'GET'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    '=
+GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'REMOTE_PORT' =3D> '59446'
+    'S=
+CRIPT_FILENAME' =3D>
+'/home/cvajm/public_html/cvajm/backend/web/index.php=
+'
+    'SERVER_ADMIN' =3D> '[no address given]'
+    'CONTEXT_DOCUMENT_RO=
+OT' =3D> '/home/cvajm/public_html'
+    'CONTEXT_PREFIX' =3D> ''
+    'RE=
+QUEST_SCHEME' =3D> 'http'
+    'DOCUMENT_ROOT' =3D> '/home/cvajm/public_ht=
+ml'
+    'REMOTE_ADDR' =3D> '23.227.142.218'
+    'SERVER_PORT' =3D> '80'=
+
+    'SERVER_ADDR' =3D> '178.128.25.198'
+    'SERVER_NAME' =3D> 'cvajm.=
+com'
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.25'
+    'SERVER_SIGNATURE' =
+=3D> ''
+    'PATH' =3D>
+'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/=
+bin:/sbin:/bin'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip'
+    'HTTP_UPGRAD=
+E_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_COOKIE' =3D> 'advanced-backend=3D=
+e3aopfpi0a77uu7pr705stged5;
+_csrf-backend=3D482eb509fa1bd49680db40519d9c8=
+58548d9d93c481a380af58ea56d49c59f19a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-bac=
+kend%22%3Bi%3A1%3Bs%3A32%3A%226CQZpwFW7311rrt_OoFxlGisHPrcEOF7%22%3B%7D'
+=
+    'HTTP_CACHE_CONTROL' =3D> 'max-age=3D0'
+    'HTTP_ACCEPT_LANGUAGE' =
+=3D> 'id-ID,id;q=3D0.9,en-US;q=3D0.8,en;q=3D0.7'
+    'HTTP_ACCEPT' =3D>=
+
+'text/html,application/xhtml+xml,application/xml;q=3D0.9,image/webp,imag=
+e/apng,*/*;q=3D0.8,application/signed-exchange;v=3Db3'
+    'HTTP_USER_AGE=
+NT' =3D> 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)
+AppleWebKit/537.36 (KH=
+TML, like Gecko) Chrome/78.0.3904.108
+Safari/537.36'
+    'HTTP_HOST' =
+=3D> 'cvajm.com'
+    'proxy-nokeepalive' =3D> '1'
+    'SCRIPT_URI' =3D>=
+ 'http://cvajm.com/cvajm/backend/web/index.php'
+    'SCRIPT_URL' =3D> '/c=
+vajm/backend/web/index.php'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_S=
+ELF' =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 15=
+80520465.0257
+    'REQUEST_TIME' =3D> 1580520465
+]

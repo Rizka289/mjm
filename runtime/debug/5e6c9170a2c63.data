@@ -1,0 +1,771 @@
+a:13:{s:6:"config";s:5119:"a:5:{s:10:"phpVersion";s:48:"7.0.33-7+0~20190503101027.13+stretch~1.gbp26f991";s:10:"yiiVersion";s:6:"2.0.18";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.18";s:4:"name";s:9:"AJM-GROUP";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:48:"7.0.33-7+0~20190503101027.13+stretch~1.gbp26f991";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:21:{s:24:"rmrevin/yii2-fontawesome";a:3:{s:4:"name";s:24:"rmrevin/yii2-fontawesome";s:7:"version";s:8:"2.17.1.0";s:5:"alias";a:1:{s:24:"@rmrevin/yii/fontawesome";s:61:"/home/cvajm/public_html/cvajm/vendor/rmrevin/yii2-fontawesome";}}s:18:"cebe/yii2-gravatar";a:3:{s:4:"name";s:18:"cebe/yii2-gravatar";s:7:"version";s:7:"1.1.0.0";s:5:"alias";a:1:{s:14:"@cebe/gravatar";s:69:"/home/cvajm/public_html/cvajm/vendor/cebe/yii2-gravatar/cebe/gravatar";}}s:16:"yiisoft/yii2-jui";a:3:{s:4:"name";s:16:"yiisoft/yii2-jui";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:8:"@yii/jui";s:53:"/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2-jui";}}s:31:"keygenqt/yii2-autocomplete-ajax";a:3:{s:4:"name";s:31:"keygenqt/yii2-autocomplete-ajax";s:7:"version";s:5:"0.5.0";s:5:"alias";a:1:{s:9:"@keygenqt";s:68:"/home/cvajm/public_html/cvajm/vendor/keygenqt/yii2-autocomplete-ajax";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:55:"/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2-faker";}}s:26:"wbraganca/yii2-dynamicform";a:3:{s:4:"name";s:26:"wbraganca/yii2-dynamicform";s:7:"version";s:7:"2.0.2.0";s:5:"alias";a:1:{s:22:"@wbraganca/dynamicform";s:63:"/home/cvajm/public_html/cvajm/vendor/wbraganca/yii2-dynamicform";}}s:25:"pheme/yii2-jui-timepicker";a:3:{s:4:"name";s:25:"pheme/yii2-jui-timepicker";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:10:"@pheme/jui";s:62:"/home/cvajm/public_html/cvajm/vendor/pheme/yii2-jui-timepicker";}}s:28:"2amigos/yii2-ckeditor-widget";a:3:{s:4:"name";s:28:"2amigos/yii2-ckeditor-widget";s:7:"version";s:7:"2.1.0.0";s:5:"alias";a:1:{s:19:"@dosamigos/ckeditor";s:69:"/home/cvajm/public_html/cvajm/vendor/2amigos/yii2-ckeditor-widget/src";}}s:27:"2amigos/yii2-tinymce-widget";a:3:{s:4:"name";s:27:"2amigos/yii2-tinymce-widget";s:7:"version";s:7:"1.1.3.0";s:5:"alias";a:1:{s:18:"@dosamigos/tinymce";s:68:"/home/cvajm/public_html/cvajm/vendor/2amigos/yii2-tinymce-widget/src";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.1.2.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:65:"/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2-swiftmailer/src";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:8:"2.0.10.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:63:"/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2-bootstrap/src";}}s:25:"dmstr/yii2-adminlte-asset";a:3:{s:4:"name";s:25:"dmstr/yii2-adminlte-asset";s:7:"version";s:7:"2.6.2.0";s:5:"alias";a:1:{s:6:"@dmstr";s:62:"/home/cvajm/public_html/cvajm/vendor/dmstr/yii2-adminlte-asset";}}s:18:"kartik-v/yii2-mpdf";a:3:{s:4:"name";s:18:"kartik-v/yii2-mpdf";s:7:"version";s:7:"1.0.5.0";s:5:"alias";a:1:{s:12:"@kartik/mpdf";s:59:"/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-mpdf/src";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:66:"/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-krajee-base/src";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/date";s:72:"/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-widget-datepicker/src";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.0.14.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:59:"/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2-debug/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.8.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:57:"/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2-gii/src";}}s:20:"kartik-v/yii2-dialog";a:3:{s:4:"name";s:20:"kartik-v/yii2-dialog";s:7:"version";s:7:"1.0.5.0";s:5:"alias";a:1:{s:14:"@kartik/dialog";s:61:"/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-dialog/src";}}s:24:"kartik-v/yii2-date-range";a:3:{s:4:"name";s:24:"kartik-v/yii2-date-range";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:17:"@kartik/daterange";s:65:"/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-date-range/src";}}s:18:"kartik-v/yii2-grid";a:3:{s:4:"name";s:18:"kartik-v/yii2-grid";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/grid";s:59:"/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-grid/src";}}s:35:"kartik-v/yii2-widget-datetimepicker";a:3:{s:4:"name";s:35:"kartik-v/yii2-widget-datetimepicker";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:16:"@kartik/datetime";s:76:"/home/cvajm/public_html/cvajm/vendor/kartik-v/yii2-widget-datetimepicker/src";}}}}";s:7:"request";s:8153:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:302;s:14:"requestHeaders";a:13:{s:6:"cookie";s:234:"advanced-backend=fmkibepiu7sg393voe249ut787; _csrf-backend=98662748f2e207b70b4b26ee02fcb5f16908abe7bec6648699e0afd617ab1188a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%220YAFAMZJYZR3Q8FPQ3BE3jr85oCn148P%22%3B%7D";s:15:"accept-language";s:14:"en-US,en;q=0.9";s:15:"accept-encoding";s:13:"gzip, deflate";s:7:"referer";s:67:"http://cvajm.com/cvajm/backend/web/index.php?r=surat-jalan%2Fcreate";s:6:"accept";s:124:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9";s:10:"user-agent";s:102:"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:25:"upgrade-insecure-requests";s:1:"1";s:6:"origin";s:16:"http://cvajm.com";s:13:"cache-control";s:9:"max-age=0";s:14:"content-length";s:4:"1204";s:10:"connection";s:10:"keep-alive";s:4:"host";s:9:"cvajm.com";}s:15:"responseHeaders";a:5:{s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:8:"Location";s:74:"http://cvajm.com/cvajm/backend/web/index.php?r=surat-jalan%2Fview&id=16949";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:18:"surat-jalan/create";s:6:"action";s:56:"backend\controllers\SuratJalanController::actionCreate()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:4:"POST";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:1204:"_csrf-backend=99oKg9V-mtVg7hN5l2e5ZuRz6W3heO-GPyA2skbJ30PHg0vFlDPAnzm0QUrGX_82tUCrKNISnb4KT3Xcd_3nEw%3D%3D&SuratJalan%5Bno_surat_jalan%5D=82243&SuratJalan%5Bjenis_angkutan%5D=1&SuratJalan%5Btanggal_surat_jalan%5D=2020-03-14+16%3A09%3A18&SuratJalan%5Bnomor_po%5D=1003964&SuratJalan%5Bid_po%5D=4161&SuratJalan%5Bsub_pelanggan%5D=KM+SEGARA+BAPAK&SuratJalan%5Bid_sub_pelanggan%5D=339&SuratJalan%5Btujuanbongkar%5D=PEL.+TRISAKTI+%2F+P.+DIDIN+08538797769&SuratJalan%5Bid_tujuan_bongkar%5D=126&SuratJalan%5Bkota%5D=BANJARMASIN&SuratJalan%5Bid_kota%5D=11&SuratJalan%5Bshift%5D=1&SuratJalan%5Bno_conch%5D=0&SuratJalan%5Bno_seri_pabrik%5D=0&SuratJalan%5Bjenis_muatan%5D=KLINKER&SuratJalan%5Bid_jenis_muatan%5D=20&SuratJalan%5Btonase%5D=0&SuratJalan%5Bjumlah_sak%5D=0&SuratJalan%5Bunit%5D=DA+1375+HB&SuratJalan%5Bid_unit%5D=15&SuratJalan%5Bdriver%5D=NUR+IMANSYAH&SuratJalan%5Bid_karyawan%5D=124&SuratJalan%5Bcash_voucher%5D=2&Jarak%5Bid_jarak%5D=CONCH+-+BANJARMASIN+%28260+km%29&SuratJalan%5Bid_jarak%5D=11&SuratJalan%5Bid_spbu%5D=2&SuratJalan%5Bdp%5D=50000&SuratJalan%5Bstatus%5D=1&SuratJalan%5Bketerangan%5D=&SuratJalan%5Bret%5D=1&SuratJalan%5Btanggal_kembali%5D=0000-00-00+00%3A00%3A00&SuratJalan%5Bid_login%5D=7";s:17:"Decoded to Params";a:3:{s:13:"_csrf-backend";s:88:"99oKg9V-mtVg7hN5l2e5ZuRz6W3heO-GPyA2skbJ30PHg0vFlDPAnzm0QUrGX_82tUCrKNISnb4KT3Xcd_3nEw==";s:10:"SuratJalan";a:31:{s:14:"no_surat_jalan";s:5:"82243";s:14:"jenis_angkutan";s:1:"1";s:19:"tanggal_surat_jalan";s:19:"2020-03-14 16:09:18";s:8:"nomor_po";s:7:"1003964";s:5:"id_po";s:4:"4161";s:13:"sub_pelanggan";s:15:"KM SEGARA BAPAK";s:16:"id_sub_pelanggan";s:3:"339";s:13:"tujuanbongkar";s:36:"PEL. TRISAKTI / P. DIDIN 08538797769";s:17:"id_tujuan_bongkar";s:3:"126";s:4:"kota";s:11:"BANJARMASIN";s:7:"id_kota";s:2:"11";s:5:"shift";s:1:"1";s:8:"no_conch";s:1:"0";s:14:"no_seri_pabrik";s:1:"0";s:12:"jenis_muatan";s:7:"KLINKER";s:15:"id_jenis_muatan";s:2:"20";s:6:"tonase";s:1:"0";s:10:"jumlah_sak";s:1:"0";s:4:"unit";s:10:"DA 1375 HB";s:7:"id_unit";s:2:"15";s:6:"driver";s:12:"NUR IMANSYAH";s:11:"id_karyawan";s:3:"124";s:12:"cash_voucher";s:1:"2";s:8:"id_jarak";s:2:"11";s:7:"id_spbu";s:1:"2";s:2:"dp";s:5:"50000";s:6:"status";s:1:"1";s:10:"keterangan";s:0:"";s:3:"ret";s:1:"1";s:15:"tanggal_kembali";s:19:"0000-00-00 00:00:00";s:8:"id_login";s:1:"7";}s:5:"Jarak";a:1:{s:8:"id_jarak";s:28:"CONCH - BANJARMASIN (260 km)";}}}s:6:"SERVER";a:42:{s:4:"USER";s:5:"cvajm";s:4:"HOME";s:11:"/home/cvajm";s:11:"SCRIPT_NAME";s:28:"/cvajm/backend/web/index.php";s:11:"REQUEST_URI";s:51:"/cvajm/backend/web/index.php?r=surat-jalan%2Fcreate";s:12:"QUERY_STRING";s:22:"r=surat-jalan%2Fcreate";s:14:"REQUEST_METHOD";s:4:"POST";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:11:"REMOTE_PORT";s:5:"56135";s:15:"SCRIPT_FILENAME";s:51:"/home/cvajm/public_html/cvajm/backend/web/index.php";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:21:"CONTEXT_DOCUMENT_ROOT";s:23:"/home/cvajm/public_html";s:14:"CONTEXT_PREFIX";s:0:"";s:14:"REQUEST_SCHEME";s:4:"http";s:13:"DOCUMENT_ROOT";s:23:"/home/cvajm/public_html";s:11:"REMOTE_ADDR";s:11:"36.90.97.69";s:11:"SERVER_PORT";s:2:"80";s:11:"SERVER_ADDR";s:14:"178.128.25.198";s:11:"SERVER_NAME";s:9:"cvajm.com";s:15:"SERVER_SOFTWARE";s:13:"Apache/2.4.25";s:16:"SERVER_SIGNATURE";s:0:"";s:4:"PATH";s:60:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";s:11:"HTTP_COOKIE";s:234:"advanced-backend=fmkibepiu7sg393voe249ut787; _csrf-backend=98662748f2e207b70b4b26ee02fcb5f16908abe7bec6648699e0afd617ab1188a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%220YAFAMZJYZR3Q8FPQ3BE3jr85oCn148P%22%3B%7D";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.9";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:67:"http://cvajm.com/cvajm/backend/web/index.php?r=surat-jalan%2Fcreate";s:11:"HTTP_ACCEPT";s:124:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9";s:15:"HTTP_USER_AGENT";s:102:"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:11:"HTTP_ORIGIN";s:16:"http://cvajm.com";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:14:"CONTENT_LENGTH";s:4:"1204";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:9:"HTTP_HOST";s:9:"cvajm.com";s:17:"proxy-nokeepalive";s:1:"1";s:10:"SCRIPT_URI";s:44:"http://cvajm.com/cvajm/backend/web/index.php";s:10:"SCRIPT_URL";s:28:"/cvajm/backend/web/index.php";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:8:"PHP_SELF";s:28:"/cvajm/backend/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1584173424.6591959;s:12:"REQUEST_TIME";i:1584173424;}s:3:"GET";a:1:{s:1:"r";s:18:"surat-jalan/create";}s:4:"POST";a:3:{s:13:"_csrf-backend";s:88:"99oKg9V-mtVg7hN5l2e5ZuRz6W3heO-GPyA2skbJ30PHg0vFlDPAnzm0QUrGX_82tUCrKNISnb4KT3Xcd_3nEw==";s:10:"SuratJalan";a:31:{s:14:"no_surat_jalan";s:5:"82243";s:14:"jenis_angkutan";s:1:"1";s:19:"tanggal_surat_jalan";s:19:"2020-03-14 16:09:18";s:8:"nomor_po";s:7:"1003964";s:5:"id_po";s:4:"4161";s:13:"sub_pelanggan";s:15:"KM SEGARA BAPAK";s:16:"id_sub_pelanggan";s:3:"339";s:13:"tujuanbongkar";s:36:"PEL. TRISAKTI / P. DIDIN 08538797769";s:17:"id_tujuan_bongkar";s:3:"126";s:4:"kota";s:11:"BANJARMASIN";s:7:"id_kota";s:2:"11";s:5:"shift";s:1:"1";s:8:"no_conch";s:1:"0";s:14:"no_seri_pabrik";s:1:"0";s:12:"jenis_muatan";s:7:"KLINKER";s:15:"id_jenis_muatan";s:2:"20";s:6:"tonase";s:1:"0";s:10:"jumlah_sak";s:1:"0";s:4:"unit";s:10:"DA 1375 HB";s:7:"id_unit";s:2:"15";s:6:"driver";s:12:"NUR IMANSYAH";s:11:"id_karyawan";s:3:"124";s:12:"cash_voucher";s:1:"2";s:8:"id_jarak";s:2:"11";s:7:"id_spbu";s:1:"2";s:2:"dp";s:5:"50000";s:6:"status";s:1:"1";s:10:"keterangan";s:0:"";s:3:"ret";s:1:"1";s:15:"tanggal_kembali";s:19:"0000-00-00 00:00:00";s:8:"id_login";s:1:"7";}s:5:"Jarak";a:1:{s:8:"id_jarak";s:28:"CONCH - BANJARMASIN (260 km)";}}s:6:"COOKIE";a:2:{s:16:"advanced-backend";s:26:"fmkibepiu7sg393voe249ut787";s:13:"_csrf-backend";s:139:"98662748f2e207b70b4b26ee02fcb5f16908abe7bec6648699e0afd617ab1188a:2:{i:0;s:13:"_csrf-backend";i:1;s:32:"0YAFAMZJYZR3Q8FPQ3BE3jr85oCn148P";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:5:{s:7:"__flash";a:0:{}s:11:"__returnUrl";s:28:"/cvajm/backend/web/index.php";s:9:"user_role";a:1:{i:0;s:11:"SURAT JALAN";}s:12:"user_role_id";a:1:{i:0;i:4;}s:4:"__id";i:7;}}";s:3:"log";s:28275:"a:1:{s:8:"messages";a:62:{i:0;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1584173424.6618741;i:4;a:0:{}i:5;i:994824;}i:1;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1584173424.6632309;i:4;a:0:{}i:5;i:1187552;}i:2;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `login`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.663872;i:4;a:0:{}i:5;i:1500744;}i:3;a:6:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=cvajm";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1584173424.663887;i:4;a:0:{}i:5;i:1501296;}i:8;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'login' AND kcu.table_name = 'login'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6651111;i:4;a:0:{}i:5;i:1529320;}i:11;a:6:{i:0;s:40:"SELECT * FROM `login` WHERE `id_login`=7";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6658051;i:4;a:0:{}i:5;i:1556776;}i:14;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1584173424.6664009;i:4;a:0:{}i:5;i:1660080;}i:15;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1584173424.666774;i:4;a:0:{}i:5;i:1707336;}i:16;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1584173424.6668479;i:4;a:0:{}i:5;i:1715384;}i:18;a:6:{i:0;s:37:"Route requested: 'surat-jalan/create'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1584173424.666949;i:4;a:0:{}i:5;i:1724840;}i:19;a:6:{i:0;s:32:"Route to run: surat-jalan/create";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1584173424.667124;i:4;a:0:{}i:5;i:1744600;}i:20;a:6:{i:0;s:72:"Running action: backend\controllers\SuratJalanController::actionCreate()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1584173424.667433;i:4;a:0:{}i:5;i:1835288;}i:21;a:6:{i:0;s:65:"SELECT max(no_surat_jalan)+1 as no_surat_jalan FROM `surat_jalan`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.667572;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1859360;}i:24;a:6:{i:0;s:36:"SHOW FULL COLUMNS FROM `surat_jalan`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6677389;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1869856;}i:27;a:6:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'surat_jalan' AND kcu.table_name = 'surat_jalan'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6686411;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1894728;}i:30;a:6:{i:0;s:365:"SELECT `no_po` AS `value`, `id_po` AS `id`, `sub_pelanggan`.`sub_pelanggan` AS `sub_pelanggan`, `sub_pelanggan`.`id_sub_pelanggan` AS `id_sub_pelanggan` FROM `purchase_order` LEFT JOIN `pelanggan` ON pelanggan.id_pelanggan = purchase_order.id_pelanggan LEFT JOIN `sub_pelanggan` ON sub_pelanggan.id_sub_pelanggan = purchase_order.id_sub_pelanggan WHERE `status` = 1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.669301;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1911720;}i:33;a:6:{i:0;s:39:"SHOW FULL COLUMNS FROM `purchase_order`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.669466;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1928456;}i:36;a:6:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'purchase_order' AND kcu.table_name = 'purchase_order'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.670161;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1945880;}i:39;a:6:{i:0;s:82:"SELECT `sub_pelanggan` AS `value`, `id_sub_pelanggan` AS `id` FROM `sub_pelanggan`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.670615;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:345;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1956664;}i:42;a:6:{i:0;s:151:"SELECT case when km >0 then concat(tujuan_bongkar, ' (', km,' KM)') else tujuan_bongkar end as value, `id_tujuan_bongkar` AS `id` FROM `tujuan_bongkar`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6711509;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:349;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2148352;}i:45;a:6:{i:0;s:55:"SELECT `kota` AS `value`, `id_kota` AS `id` FROM `kota`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.671608;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:353;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2295920;}i:48;a:6:{i:0;s:73:"SELECT `nopol` AS `value`, `id_unit` AS `id` FROM `unit` WHERE status = 1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6719689;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:358;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2354344;}i:51;a:6:{i:0;s:182:"SELECT `nama` AS `value`, `id_karyawan` AS `id` FROM `karyawan` WHERE (((`id_jabatan` >= 37) AND (`id_jabatan` <= 43)) OR (`id_jabatan` = 63)) AND (`status` != 5) AND (`status` != 7)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.672543;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:367;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2542432;}i:54;a:6:{i:0;s:111:"SELECT concat(dari, ' - ', ke, ' (', jarak, ' km)' ) as value, `id_jarak` AS `id` FROM `jarak` ORDER BY `value`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6730101;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:372;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2718816;}i:57;a:6:{i:0;s:96:"SELECT `jenis_muatan` AS `value`, `id_jenis_muatan` AS `id` FROM `jenis_muatan` ORDER BY `value`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.673435;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:377;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2790936;}i:60;a:6:{i:0;s:73:"Failed to set unsafe attribute 'nomor_po' in 'backend\models\SuratJalan'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1584173424.674017;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:391;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}}i:5;i:2930912;}i:61;a:6:{i:0;s:78:"Failed to set unsafe attribute 'sub_pelanggan' in 'backend\models\SuratJalan'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1584173424.674032;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:391;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}}i:5;i:2932360;}i:62;a:6:{i:0;s:78:"Failed to set unsafe attribute 'tujuanbongkar' in 'backend\models\SuratJalan'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1584173424.674042;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:391;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}}i:5;i:2933808;}i:63;a:6:{i:0;s:69:"Failed to set unsafe attribute 'kota' in 'backend\models\SuratJalan'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1584173424.674052;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:391;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}}i:5;i:2935240;}i:64;a:6:{i:0;s:77:"Failed to set unsafe attribute 'jenis_muatan' in 'backend\models\SuratJalan'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1584173424.674067;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:391;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}}i:5;i:2937352;}i:65;a:6:{i:0;s:69:"Failed to set unsafe attribute 'unit' in 'backend\models\SuratJalan'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1584173424.6740811;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:391;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}}i:5;i:2944432;}i:66;a:6:{i:0;s:71:"Failed to set unsafe attribute 'driver' in 'backend\models\SuratJalan'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1584173424.674089;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:391;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}}i:5;i:2945864;}i:67;a:6:{i:0;s:50:"SELECT * FROM `karyawan` WHERE `id_karyawan`='124'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.674237;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2965936;}i:70;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `karyawan`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6746161;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2981064;}i:73;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'karyawan' AND kcu.table_name = 'karyawan'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6755731;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3014424;}i:76;a:6:{i:0;s:84:"SELECT status FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6761129;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:393;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3009128;}i:79;a:6:{i:0;s:202:"SELECT workshop.status FROM workshop LEFT JOIN ba_perbaikan ON ba_perbaikan.id_ba_perbaikan = workshop.id_ba_perbaikan WHERE ba_perbaikan.id_unit = '15' AND workshop.status != 3 AND workshop.status != 1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6774991;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:394;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3013368;}i:82;a:6:{i:0;s:88:"SELECT keterangan FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.678797;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:395;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3017480;}i:85;a:6:{i:0;s:546:"INSERT INTO `surat_jalan` (`no_surat_jalan`, `jenis_angkutan`, `tanggal_surat_jalan`, `id_po`, `id_sub_pelanggan`, `id_tujuan_bongkar`, `id_kota`, `shift`, `no_conch`, `no_seri_pabrik`, `id_jenis_muatan`, `tonase`, `jumlah_sak`, `id_unit`, `id_karyawan`, `cash_voucher`, `id_jarak`, `id_spbu`, `dp`, `status`, `keterangan`, `ret`, `tanggal_kembali`, `id_login`, `tanggal_shift`) VALUES ('82243', 1, '2020-03-14 16:09:18', 4161, 339, 126, 11, 1, '0', '0', 20, '0', '0', 15, 124, 2, 11, 2, 50000, 1, '', '1', '0000-00-00 00:00:00', 7, '2020-03-14')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6809521;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:435;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3046752;}i:88;a:6:{i:0;s:41:"SELECT * FROM `unit` WHERE `id_unit`='15'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6844079;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3041840;}i:91;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `unit`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.684588;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3053200;}i:94;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'unit' AND kcu.table_name = 'unit'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.685523;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3072136;}i:97;a:6:{i:0;s:51:"SELECT * FROM `purchase_order` WHERE `id_po`='4161'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6862149;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:438;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3071744;}i:100;a:6:{i:0;s:67:"SELECT * FROM `acuan_biaya_operasional_new` WHERE `id_group_unit`=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6865129;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3092960;}i:103;a:6:{i:0;s:52:"SHOW FULL COLUMNS FROM `acuan_biaya_operasional_new`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.686795;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3104696;}i:106;a:6:{i:0;s:641:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'acuan_biaya_operasional_new' AND kcu.table_name = 'acuan_biaya_operasional_new'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6876211;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3122112;}i:109;a:6:{i:0;s:50:"SELECT * FROM `group_unit` WHERE `id_group_unit`=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.688493;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3135280;}i:112;a:6:{i:0;s:35:"SHOW FULL COLUMNS FROM `group_unit`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6886611;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3146896;}i:115;a:6:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'group_unit' AND kcu.table_name = 'group_unit'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6894541;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3168056;}i:118;a:6:{i:0;s:43:"SELECT * FROM `jarak` WHERE `id_jarak`='11'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.68995;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3167744;}i:121;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `jarak`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.690104;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3177744;}i:124;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jarak' AND kcu.table_name = 'jarak'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6909449;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3192592;}i:127;a:6:{i:0;s:57:"SELECT * FROM `jenis_muatan` WHERE `id_jenis_muatan`='20'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6914179;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3192248;}i:130;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `jenis_muatan`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6924231;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3205816;}i:133;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jenis_muatan' AND kcu.table_name = 'jenis_muatan'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6930461;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3217008;}i:136;a:6:{i:0;s:42:"SHOW FULL COLUMNS FROM `biaya_operasional`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.693501;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3234544;}i:139;a:6:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'biaya_operasional' AND kcu.table_name = 'biaya_operasional'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6943099;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3253872;}i:142;a:6:{i:0;s:307:"INSERT INTO `biaya_operasional` (`id_surat_jalan`, `rp_muat`, `rp_bongkar`, `rp_makan`, `rp_koperasi`, `rp_organda`, `rp_pelabuhan`, `rp_operasional`, `rp_lain`, `rp_bbm`, `rp_bbmplus`, `rp_liter`, `jml_liter`, `dibayarkan`) VALUES (16949, 0, 0, 0, 15000, 10000, 9000, 0, 5000, 637200, 0, 5400, 118, 626200)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6950319;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:535;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3267312;}i:145;a:6:{i:0;s:46:"SHOW FULL COLUMNS FROM `kas_kecil_surat_jalan`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.697947;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3282856;}i:148;a:6:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'kas_kecil_surat_jalan' AND kcu.table_name = 'kas_kecil_surat_jalan'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6985829;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3296176;}i:151;a:6:{i:0;s:193:"INSERT INTO `kas_kecil_surat_jalan` (`tanggal`, `keterangan`, `id_surat_jalan`, `id_karyawan`, `jumlah`, `status`) VALUES ('2020-03-14 16:09:18', 'Biaya Operasional', 16949, 124, '-11000', '2')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6992681;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:546;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3300584;}i:154;a:6:{i:0;s:100:"Access to debugger is denied due to IP address restriction. The requesting IP address is 36.90.97.69";i:1;i:2;i:2;s:29:"yii\debug\Module::checkAccess";i:3;d:1584173424.701834;i:4;a:0:{}i:5;i:2518976;}}}";s:9:"profiling";s:48165:"a:3:{s:6:"memory";i:3307680;s:4:"time";d:0.044105052947998047;s:8:"messages";a:92:{i:4;a:6:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=cvajm";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1584173424.6638889;i:4;a:0:{}i:5;i:1501672;}i:5;a:6:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=cvajm";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1584173424.664279;i:4;a:0:{}i:5;i:1513208;}i:6;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `login`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6642849;i:4;a:0:{}i:5;i:1514248;}i:7;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `login`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.664948;i:4;a:0:{}i:5;i:1520664;}i:9;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'login' AND kcu.table_name = 'login'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.665122;i:4;a:0:{}i:5;i:1531680;}i:10;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'login' AND kcu.table_name = 'login'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.665539;i:4;a:0:{}i:5;i:1532560;}i:12;a:6:{i:0;s:40:"SELECT * FROM `login` WHERE `id_login`=7";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6658139;i:4;a:0:{}i:5;i:1557912;}i:13;a:6:{i:0;s:40:"SELECT * FROM `login` WHERE `id_login`=7";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6659989;i:4;a:0:{}i:5;i:1559288;}i:22;a:6:{i:0;s:65:"SELECT max(no_surat_jalan)+1 as no_surat_jalan FROM `surat_jalan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.667609;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1860864;}i:23;a:6:{i:0;s:65:"SELECT max(no_surat_jalan)+1 as no_surat_jalan FROM `surat_jalan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.667691;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1862680;}i:25;a:6:{i:0;s:36:"SHOW FULL COLUMNS FROM `surat_jalan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.667758;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1871288;}i:26;a:6:{i:0;s:36:"SHOW FULL COLUMNS FROM `surat_jalan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6684151;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1905312;}i:28;a:6:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'surat_jalan' AND kcu.table_name = 'surat_jalan'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.668663;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1897144;}i:29;a:6:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'surat_jalan' AND kcu.table_name = 'surat_jalan'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6690309;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1898864;}i:31;a:6:{i:0;s:365:"SELECT `no_po` AS `value`, `id_po` AS `id`, `sub_pelanggan`.`sub_pelanggan` AS `sub_pelanggan`, `sub_pelanggan`.`id_sub_pelanggan` AS `id_sub_pelanggan` FROM `purchase_order` LEFT JOIN `pelanggan` ON pelanggan.id_pelanggan = purchase_order.id_pelanggan LEFT JOIN `sub_pelanggan` ON sub_pelanggan.id_sub_pelanggan = purchase_order.id_sub_pelanggan WHERE `status` = 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.669322;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1913936;}i:32;a:6:{i:0;s:365:"SELECT `no_po` AS `value`, `id_po` AS `id`, `sub_pelanggan`.`sub_pelanggan` AS `sub_pelanggan`, `sub_pelanggan`.`id_sub_pelanggan` AS `id_sub_pelanggan` FROM `purchase_order` LEFT JOIN `pelanggan` ON pelanggan.id_pelanggan = purchase_order.id_pelanggan LEFT JOIN `sub_pelanggan` ON sub_pelanggan.id_sub_pelanggan = purchase_order.id_sub_pelanggan WHERE `status` = 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6694281;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1923000;}i:34;a:6:{i:0;s:39:"SHOW FULL COLUMNS FROM `purchase_order`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6695049;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1929888;}i:35;a:6:{i:0;s:39:"SHOW FULL COLUMNS FROM `purchase_order`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6700201;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1947920;}i:37;a:6:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'purchase_order' AND kcu.table_name = 'purchase_order'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6701829;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1948296;}i:38;a:6:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'purchase_order' AND kcu.table_name = 'purchase_order'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6704819;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1950016;}i:40;a:6:{i:0;s:82:"SELECT `sub_pelanggan` AS `value`, `id_sub_pelanggan` AS `id` FROM `sub_pelanggan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.67063;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:345;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1958200;}i:41;a:6:{i:0;s:82:"SELECT `sub_pelanggan` AS `value`, `id_sub_pelanggan` AS `id` FROM `sub_pelanggan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.670995;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:345;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2132944;}i:43;a:6:{i:0;s:151:"SELECT case when km >0 then concat(tujuan_bongkar, ' (', km,' KM)') else tujuan_bongkar end as value, `id_tujuan_bongkar` AS `id` FROM `tujuan_bongkar`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.671169;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:349;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2150032;}i:44;a:6:{i:0;s:151:"SELECT case when km >0 then concat(tujuan_bongkar, ' (', km,' KM)') else tujuan_bongkar end as value, `id_tujuan_bongkar` AS `id` FROM `tujuan_bongkar`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.671479;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:349;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2280760;}i:46;a:6:{i:0;s:55:"SELECT `kota` AS `value`, `id_kota` AS `id` FROM `kota`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6716361;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:353;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2297384;}i:47;a:6:{i:0;s:55:"SELECT `kota` AS `value`, `id_kota` AS `id` FROM `kota`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6718559;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:353;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2338304;}i:49;a:6:{i:0;s:73:"SELECT `nopol` AS `value`, `id_unit` AS `id` FROM `unit` WHERE status = 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.671984;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:358;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2355864;}i:50;a:6:{i:0;s:73:"SELECT `nopol` AS `value`, `id_unit` AS `id` FROM `unit` WHERE status = 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6722929;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:358;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2519888;}i:52;a:6:{i:0;s:182:"SELECT `nama` AS `value`, `id_karyawan` AS `id` FROM `karyawan` WHERE (((`id_jabatan` >= 37) AND (`id_jabatan` <= 43)) OR (`id_jabatan` = 63)) AND (`status` != 5) AND (`status` != 7)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6725681;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:367;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2543208;}i:53;a:6:{i:0;s:182:"SELECT `nama` AS `value`, `id_karyawan` AS `id` FROM `karyawan` WHERE (((`id_jabatan` >= 37) AND (`id_jabatan` <= 43)) OR (`id_jabatan` = 63)) AND (`status` != 5) AND (`status` != 7)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6728859;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:367;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2706448;}i:55;a:6:{i:0;s:111:"SELECT concat(dari, ' - ', ke, ' (', jarak, ' km)' ) as value, `id_jarak` AS `id` FROM `jarak` ORDER BY `value`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6730261;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:372;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2720416;}i:56;a:6:{i:0;s:111:"SELECT concat(dari, ' - ', ke, ' (', jarak, ' km)' ) as value, `id_jarak` AS `id` FROM `jarak` ORDER BY `value`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.673306;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:372;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2775648;}i:58;a:6:{i:0;s:96:"SELECT `jenis_muatan` AS `value`, `id_jenis_muatan` AS `id` FROM `jenis_muatan` ORDER BY `value`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6734509;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:377;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2792504;}i:59;a:6:{i:0;s:96:"SELECT `jenis_muatan` AS `value`, `id_jenis_muatan` AS `id` FROM `jenis_muatan` ORDER BY `value`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6735489;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:377;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2813560;}i:68;a:6:{i:0;s:50:"SELECT * FROM `karyawan` WHERE `id_karyawan`='124'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.674257;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2967488;}i:69;a:6:{i:0;s:50:"SELECT * FROM `karyawan` WHERE `id_karyawan`='124'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6745651;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2977344;}i:71;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `karyawan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6746349;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2982496;}i:72;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `karyawan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6752801;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3034368;}i:74;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'karyawan' AND kcu.table_name = 'karyawan'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.675596;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3016840;}i:75;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'karyawan' AND kcu.table_name = 'karyawan'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.675998;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3018560;}i:77;a:6:{i:0;s:84:"SELECT status FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.676127;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:393;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3010664;}i:78;a:6:{i:0;s:84:"SELECT status FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6774671;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:393;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3012064;}i:80;a:6:{i:0;s:202:"SELECT workshop.status FROM workshop LEFT JOIN ba_perbaikan ON ba_perbaikan.id_ba_perbaikan = workshop.id_ba_perbaikan WHERE ba_perbaikan.id_unit = '15' AND workshop.status != 3 AND workshop.status != 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.677511;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:394;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3015176;}i:81;a:6:{i:0;s:202:"SELECT workshop.status FROM workshop LEFT JOIN ba_perbaikan ON ba_perbaikan.id_ba_perbaikan = workshop.id_ba_perbaikan WHERE ba_perbaikan.id_unit = '15' AND workshop.status != 3 AND workshop.status != 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6787691;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:394;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3016576;}i:83;a:6:{i:0;s:88:"SELECT keterangan FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6788089;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:395;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3019032;}i:84;a:6:{i:0;s:88:"SELECT keterangan FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.68062;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:395;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3020440;}i:86;a:6:{i:0;s:546:"INSERT INTO `surat_jalan` (`no_surat_jalan`, `jenis_angkutan`, `tanggal_surat_jalan`, `id_po`, `id_sub_pelanggan`, `id_tujuan_bongkar`, `id_kota`, `shift`, `no_conch`, `no_seri_pabrik`, `id_jenis_muatan`, `tonase`, `jumlah_sak`, `id_unit`, `id_karyawan`, `cash_voucher`, `id_jarak`, `id_spbu`, `dp`, `status`, `keterangan`, `ret`, `tanggal_kembali`, `id_login`, `tanggal_shift`) VALUES ('82243', 1, '2020-03-14 16:09:18', 4161, 339, 126, 11, 1, '0', '0', 20, '0', '0', 15, 124, 2, 11, 2, 50000, 1, '', '1', '0000-00-00 00:00:00', 7, '2020-03-14')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6809869;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:435;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3043120;}i:87;a:6:{i:0;s:546:"INSERT INTO `surat_jalan` (`no_surat_jalan`, `jenis_angkutan`, `tanggal_surat_jalan`, `id_po`, `id_sub_pelanggan`, `id_tujuan_bongkar`, `id_kota`, `shift`, `no_conch`, `no_seri_pabrik`, `id_jenis_muatan`, `tonase`, `jumlah_sak`, `id_unit`, `id_karyawan`, `cash_voucher`, `id_jarak`, `id_spbu`, `dp`, `status`, `keterangan`, `ret`, `tanggal_kembali`, `id_login`, `tanggal_shift`) VALUES ('82243', 1, '2020-03-14 16:09:18', 4161, 339, 126, 11, 1, '0', '0', 20, '0', '0', 15, 124, 2, 11, 2, 50000, 1, '', '1', '0000-00-00 00:00:00', 7, '2020-03-14')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.684196;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:435;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3044456;}i:89;a:6:{i:0;s:41:"SELECT * FROM `unit` WHERE `id_unit`='15'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.684427;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3043384;}i:90;a:6:{i:0;s:41:"SELECT * FROM `unit` WHERE `id_unit`='15'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.684535;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3048200;}i:92;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `unit`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.684608;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3054616;}i:93;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `unit`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6852989;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3075312;}i:95;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'unit' AND kcu.table_name = 'unit'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.685549;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3074552;}i:96;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'unit' AND kcu.table_name = 'unit'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.68608;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3076272;}i:98;a:6:{i:0;s:51:"SELECT * FROM `purchase_order` WHERE `id_po`='4161'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.686233;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:438;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3073296;}i:99;a:6:{i:0;s:51:"SELECT * FROM `purchase_order` WHERE `id_po`='4161'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6863251;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:438;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3077104;}i:101;a:6:{i:0;s:67:"SELECT * FROM `acuan_biaya_operasional_new` WHERE `id_group_unit`=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.686533;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3094520;}i:102;a:6:{i:0;s:67:"SELECT * FROM `acuan_biaya_operasional_new` WHERE `id_group_unit`=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6867361;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3098312;}i:104;a:6:{i:0;s:52:"SHOW FULL COLUMNS FROM `acuan_biaya_operasional_new`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.686826;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3106160;}i:105;a:6:{i:0;s:52:"SHOW FULL COLUMNS FROM `acuan_biaya_operasional_new`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6874831;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3124088;}i:107;a:6:{i:0;s:641:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'acuan_biaya_operasional_new' AND kcu.table_name = 'acuan_biaya_operasional_new'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.687644;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3124528;}i:108;a:6:{i:0;s:641:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'acuan_biaya_operasional_new' AND kcu.table_name = 'acuan_biaya_operasional_new'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6883199;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3126248;}i:110;a:6:{i:0;s:50:"SELECT * FROM `group_unit` WHERE `id_group_unit`=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6885109;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3136800;}i:111;a:6:{i:0;s:50:"SELECT * FROM `group_unit` WHERE `id_group_unit`=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.688612;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3142136;}i:113;a:6:{i:0;s:35:"SHOW FULL COLUMNS FROM `group_unit`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.688679;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3148328;}i:114;a:6:{i:0;s:35:"SHOW FULL COLUMNS FROM `group_unit`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6892059;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3173744;}i:116;a:6:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'group_unit' AND kcu.table_name = 'group_unit'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6894801;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3170472;}i:117;a:6:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'group_unit' AND kcu.table_name = 'group_unit'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6898179;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3172192;}i:119;a:6:{i:0;s:43:"SELECT * FROM `jarak` WHERE `id_jarak`='11'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6899669;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3169288;}i:120;a:6:{i:0;s:43:"SELECT * FROM `jarak` WHERE `id_jarak`='11'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6900549;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3172424;}i:122;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `jarak`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6901219;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3179160;}i:123;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `jarak`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6908219;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3191448;}i:125;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jarak' AND kcu.table_name = 'jarak'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.690969;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3195008;}i:126;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jarak' AND kcu.table_name = 'jarak'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.691292;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3196728;}i:128;a:6:{i:0;s:57:"SELECT * FROM `jenis_muatan` WHERE `id_jenis_muatan`='20'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6914361;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3193824;}i:129;a:6:{i:0;s:57:"SELECT * FROM `jenis_muatan` WHERE `id_jenis_muatan`='20'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6923671;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3199848;}i:131;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `jenis_muatan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6924419;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3207248;}i:132;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `jenis_muatan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.692977;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3211608;}i:134;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jenis_muatan' AND kcu.table_name = 'jenis_muatan'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6930659;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3219424;}i:135;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jenis_muatan' AND kcu.table_name = 'jenis_muatan'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.693357;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3221144;}i:137;a:6:{i:0;s:42:"SHOW FULL COLUMNS FROM `biaya_operasional`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.693522;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3236000;}i:138;a:6:{i:0;s:42:"SHOW FULL COLUMNS FROM `biaya_operasional`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.69416;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3257424;}i:140;a:6:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'biaya_operasional' AND kcu.table_name = 'biaya_operasional'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6943319;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3256288;}i:141;a:6:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'biaya_operasional' AND kcu.table_name = 'biaya_operasional'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6948769;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3258008;}i:143;a:6:{i:0;s:307:"INSERT INTO `biaya_operasional` (`id_surat_jalan`, `rp_muat`, `rp_bongkar`, `rp_makan`, `rp_koperasi`, `rp_organda`, `rp_pelabuhan`, `rp_operasional`, `rp_lain`, `rp_bbm`, `rp_bbmplus`, `rp_liter`, `jml_liter`, `dibayarkan`) VALUES (16949, 0, 0, 0, 15000, 10000, 9000, 0, 5000, 637200, 0, 5400, 118, 626200)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.695076;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:535;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3265712;}i:144;a:6:{i:0;s:307:"INSERT INTO `biaya_operasional` (`id_surat_jalan`, `rp_muat`, `rp_bongkar`, `rp_makan`, `rp_koperasi`, `rp_organda`, `rp_pelabuhan`, `rp_operasional`, `rp_lain`, `rp_bbm`, `rp_bbmplus`, `rp_liter`, `jml_liter`, `dibayarkan`) VALUES (16949, 0, 0, 0, 15000, 10000, 9000, 0, 5000, 637200, 0, 5400, 118, 626200)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6977921;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:535;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3267048;}i:146;a:6:{i:0;s:46:"SHOW FULL COLUMNS FROM `kas_kecil_surat_jalan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.697968;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3284312;}i:147;a:6:{i:0;s:46:"SHOW FULL COLUMNS FROM `kas_kecil_surat_jalan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6984861;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3293488;}i:149;a:6:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'kas_kecil_surat_jalan' AND kcu.table_name = 'kas_kecil_surat_jalan'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6986051;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3298592;}i:150;a:6:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'kas_kecil_surat_jalan' AND kcu.table_name = 'kas_kecil_surat_jalan'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6991379;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3300312;}i:152;a:6:{i:0;s:193:"INSERT INTO `kas_kecil_surat_jalan` (`tanggal`, `keterangan`, `id_surat_jalan`, `id_karyawan`, `jumlah`, `status`) VALUES ('2020-03-14 16:09:18', 'Biaya Operasional', 16949, 124, '-11000', '2')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6992891;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:546;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3301112;}i:153;a:6:{i:0;s:193:"INSERT INTO `kas_kecil_surat_jalan` (`tanggal`, `keterangan`, `id_surat_jalan`, `id_karyawan`, `jumlah`, `status`) VALUES ('2020-03-14 16:09:18', 'Biaya Operasional', 16949, 124, '-11000', '2')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.7013841;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:546;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3302448;}}}";s:2:"db";s:47767:"a:1:{s:8:"messages";a:90:{i:6;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `login`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6642849;i:4;a:0:{}i:5;i:1514248;}i:7;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `login`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.664948;i:4;a:0:{}i:5;i:1520664;}i:9;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'login' AND kcu.table_name = 'login'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.665122;i:4;a:0:{}i:5;i:1531680;}i:10;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'login' AND kcu.table_name = 'login'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.665539;i:4;a:0:{}i:5;i:1532560;}i:12;a:6:{i:0;s:40:"SELECT * FROM `login` WHERE `id_login`=7";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6658139;i:4;a:0:{}i:5;i:1557912;}i:13;a:6:{i:0;s:40:"SELECT * FROM `login` WHERE `id_login`=7";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6659989;i:4;a:0:{}i:5;i:1559288;}i:22;a:6:{i:0;s:65:"SELECT max(no_surat_jalan)+1 as no_surat_jalan FROM `surat_jalan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.667609;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1860864;}i:23;a:6:{i:0;s:65:"SELECT max(no_surat_jalan)+1 as no_surat_jalan FROM `surat_jalan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.667691;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1862680;}i:25;a:6:{i:0;s:36:"SHOW FULL COLUMNS FROM `surat_jalan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.667758;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1871288;}i:26;a:6:{i:0;s:36:"SHOW FULL COLUMNS FROM `surat_jalan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6684151;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1905312;}i:28;a:6:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'surat_jalan' AND kcu.table_name = 'surat_jalan'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.668663;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1897144;}i:29;a:6:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'surat_jalan' AND kcu.table_name = 'surat_jalan'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6690309;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:334;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1898864;}i:31;a:6:{i:0;s:365:"SELECT `no_po` AS `value`, `id_po` AS `id`, `sub_pelanggan`.`sub_pelanggan` AS `sub_pelanggan`, `sub_pelanggan`.`id_sub_pelanggan` AS `id_sub_pelanggan` FROM `purchase_order` LEFT JOIN `pelanggan` ON pelanggan.id_pelanggan = purchase_order.id_pelanggan LEFT JOIN `sub_pelanggan` ON sub_pelanggan.id_sub_pelanggan = purchase_order.id_sub_pelanggan WHERE `status` = 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.669322;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1913936;}i:32;a:6:{i:0;s:365:"SELECT `no_po` AS `value`, `id_po` AS `id`, `sub_pelanggan`.`sub_pelanggan` AS `sub_pelanggan`, `sub_pelanggan`.`id_sub_pelanggan` AS `id_sub_pelanggan` FROM `purchase_order` LEFT JOIN `pelanggan` ON pelanggan.id_pelanggan = purchase_order.id_pelanggan LEFT JOIN `sub_pelanggan` ON sub_pelanggan.id_sub_pelanggan = purchase_order.id_sub_pelanggan WHERE `status` = 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6694281;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1923000;}i:34;a:6:{i:0;s:39:"SHOW FULL COLUMNS FROM `purchase_order`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6695049;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1929888;}i:35;a:6:{i:0;s:39:"SHOW FULL COLUMNS FROM `purchase_order`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6700201;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1947920;}i:37;a:6:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'purchase_order' AND kcu.table_name = 'purchase_order'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6701829;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1948296;}i:38;a:6:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'purchase_order' AND kcu.table_name = 'purchase_order'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6704819;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:341;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1950016;}i:40;a:6:{i:0;s:82:"SELECT `sub_pelanggan` AS `value`, `id_sub_pelanggan` AS `id` FROM `sub_pelanggan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.67063;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:345;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1958200;}i:41;a:6:{i:0;s:82:"SELECT `sub_pelanggan` AS `value`, `id_sub_pelanggan` AS `id` FROM `sub_pelanggan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.670995;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:345;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2132944;}i:43;a:6:{i:0;s:151:"SELECT case when km >0 then concat(tujuan_bongkar, ' (', km,' KM)') else tujuan_bongkar end as value, `id_tujuan_bongkar` AS `id` FROM `tujuan_bongkar`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.671169;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:349;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2150032;}i:44;a:6:{i:0;s:151:"SELECT case when km >0 then concat(tujuan_bongkar, ' (', km,' KM)') else tujuan_bongkar end as value, `id_tujuan_bongkar` AS `id` FROM `tujuan_bongkar`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.671479;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:349;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2280760;}i:46;a:6:{i:0;s:55:"SELECT `kota` AS `value`, `id_kota` AS `id` FROM `kota`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6716361;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:353;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2297384;}i:47;a:6:{i:0;s:55:"SELECT `kota` AS `value`, `id_kota` AS `id` FROM `kota`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6718559;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:353;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2338304;}i:49;a:6:{i:0;s:73:"SELECT `nopol` AS `value`, `id_unit` AS `id` FROM `unit` WHERE status = 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.671984;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:358;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2355864;}i:50;a:6:{i:0;s:73:"SELECT `nopol` AS `value`, `id_unit` AS `id` FROM `unit` WHERE status = 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6722929;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:358;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2519888;}i:52;a:6:{i:0;s:182:"SELECT `nama` AS `value`, `id_karyawan` AS `id` FROM `karyawan` WHERE (((`id_jabatan` >= 37) AND (`id_jabatan` <= 43)) OR (`id_jabatan` = 63)) AND (`status` != 5) AND (`status` != 7)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6725681;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:367;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2543208;}i:53;a:6:{i:0;s:182:"SELECT `nama` AS `value`, `id_karyawan` AS `id` FROM `karyawan` WHERE (((`id_jabatan` >= 37) AND (`id_jabatan` <= 43)) OR (`id_jabatan` = 63)) AND (`status` != 5) AND (`status` != 7)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6728859;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:367;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2706448;}i:55;a:6:{i:0;s:111:"SELECT concat(dari, ' - ', ke, ' (', jarak, ' km)' ) as value, `id_jarak` AS `id` FROM `jarak` ORDER BY `value`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6730261;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:372;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2720416;}i:56;a:6:{i:0;s:111:"SELECT concat(dari, ' - ', ke, ' (', jarak, ' km)' ) as value, `id_jarak` AS `id` FROM `jarak` ORDER BY `value`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.673306;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:372;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2775648;}i:58;a:6:{i:0;s:96:"SELECT `jenis_muatan` AS `value`, `id_jenis_muatan` AS `id` FROM `jenis_muatan` ORDER BY `value`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6734509;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:377;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2792504;}i:59;a:6:{i:0;s:96:"SELECT `jenis_muatan` AS `value`, `id_jenis_muatan` AS `id` FROM `jenis_muatan` ORDER BY `value`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6735489;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:377;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2813560;}i:68;a:6:{i:0;s:50:"SELECT * FROM `karyawan` WHERE `id_karyawan`='124'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.674257;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2967488;}i:69;a:6:{i:0;s:50:"SELECT * FROM `karyawan` WHERE `id_karyawan`='124'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6745651;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2977344;}i:71;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `karyawan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6746349;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2982496;}i:72;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `karyawan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6752801;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3034368;}i:74;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'karyawan' AND kcu.table_name = 'karyawan'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.675596;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3016840;}i:75;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'karyawan' AND kcu.table_name = 'karyawan'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.675998;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:392;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3018560;}i:77;a:6:{i:0;s:84:"SELECT status FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.676127;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:393;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3010664;}i:78;a:6:{i:0;s:84:"SELECT status FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6774671;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:393;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3012064;}i:80;a:6:{i:0;s:202:"SELECT workshop.status FROM workshop LEFT JOIN ba_perbaikan ON ba_perbaikan.id_ba_perbaikan = workshop.id_ba_perbaikan WHERE ba_perbaikan.id_unit = '15' AND workshop.status != 3 AND workshop.status != 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.677511;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:394;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3015176;}i:81;a:6:{i:0;s:202:"SELECT workshop.status FROM workshop LEFT JOIN ba_perbaikan ON ba_perbaikan.id_ba_perbaikan = workshop.id_ba_perbaikan WHERE ba_perbaikan.id_unit = '15' AND workshop.status != 3 AND workshop.status != 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6787691;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:394;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3016576;}i:83;a:6:{i:0;s:88:"SELECT keterangan FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6788089;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:395;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3019032;}i:84;a:6:{i:0;s:88:"SELECT keterangan FROM ba_perbaikan WHERE id_unit = '15' AND status != 3 AND status != 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.68062;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:395;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:3020440;}i:86;a:6:{i:0;s:546:"INSERT INTO `surat_jalan` (`no_surat_jalan`, `jenis_angkutan`, `tanggal_surat_jalan`, `id_po`, `id_sub_pelanggan`, `id_tujuan_bongkar`, `id_kota`, `shift`, `no_conch`, `no_seri_pabrik`, `id_jenis_muatan`, `tonase`, `jumlah_sak`, `id_unit`, `id_karyawan`, `cash_voucher`, `id_jarak`, `id_spbu`, `dp`, `status`, `keterangan`, `ret`, `tanggal_kembali`, `id_login`, `tanggal_shift`) VALUES ('82243', 1, '2020-03-14 16:09:18', 4161, 339, 126, 11, 1, '0', '0', 20, '0', '0', 15, 124, 2, 11, 2, 50000, 1, '', '1', '0000-00-00 00:00:00', 7, '2020-03-14')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6809869;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:435;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3043120;}i:87;a:6:{i:0;s:546:"INSERT INTO `surat_jalan` (`no_surat_jalan`, `jenis_angkutan`, `tanggal_surat_jalan`, `id_po`, `id_sub_pelanggan`, `id_tujuan_bongkar`, `id_kota`, `shift`, `no_conch`, `no_seri_pabrik`, `id_jenis_muatan`, `tonase`, `jumlah_sak`, `id_unit`, `id_karyawan`, `cash_voucher`, `id_jarak`, `id_spbu`, `dp`, `status`, `keterangan`, `ret`, `tanggal_kembali`, `id_login`, `tanggal_shift`) VALUES ('82243', 1, '2020-03-14 16:09:18', 4161, 339, 126, 11, 1, '0', '0', 20, '0', '0', 15, 124, 2, 11, 2, 50000, 1, '', '1', '0000-00-00 00:00:00', 7, '2020-03-14')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.684196;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:435;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3044456;}i:89;a:6:{i:0;s:41:"SELECT * FROM `unit` WHERE `id_unit`='15'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.684427;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3043384;}i:90;a:6:{i:0;s:41:"SELECT * FROM `unit` WHERE `id_unit`='15'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.684535;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3048200;}i:92;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `unit`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.684608;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3054616;}i:93;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `unit`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6852989;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3075312;}i:95;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'unit' AND kcu.table_name = 'unit'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.685549;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3074552;}i:96;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'unit' AND kcu.table_name = 'unit'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.68608;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:437;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3076272;}i:98;a:6:{i:0;s:51:"SELECT * FROM `purchase_order` WHERE `id_po`='4161'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.686233;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:438;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3073296;}i:99;a:6:{i:0;s:51:"SELECT * FROM `purchase_order` WHERE `id_po`='4161'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6863251;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:438;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3077104;}i:101;a:6:{i:0;s:67:"SELECT * FROM `acuan_biaya_operasional_new` WHERE `id_group_unit`=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.686533;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3094520;}i:102;a:6:{i:0;s:67:"SELECT * FROM `acuan_biaya_operasional_new` WHERE `id_group_unit`=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6867361;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3098312;}i:104;a:6:{i:0;s:52:"SHOW FULL COLUMNS FROM `acuan_biaya_operasional_new`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.686826;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3106160;}i:105;a:6:{i:0;s:52:"SHOW FULL COLUMNS FROM `acuan_biaya_operasional_new`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6874831;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3124088;}i:107;a:6:{i:0;s:641:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'acuan_biaya_operasional_new' AND kcu.table_name = 'acuan_biaya_operasional_new'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.687644;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3124528;}i:108;a:6:{i:0;s:641:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'acuan_biaya_operasional_new' AND kcu.table_name = 'acuan_biaya_operasional_new'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6883199;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:439;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3126248;}i:110;a:6:{i:0;s:50:"SELECT * FROM `group_unit` WHERE `id_group_unit`=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6885109;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3136800;}i:111;a:6:{i:0;s:50:"SELECT * FROM `group_unit` WHERE `id_group_unit`=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.688612;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3142136;}i:113;a:6:{i:0;s:35:"SHOW FULL COLUMNS FROM `group_unit`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.688679;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3148328;}i:114;a:6:{i:0;s:35:"SHOW FULL COLUMNS FROM `group_unit`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6892059;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3173744;}i:116;a:6:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'group_unit' AND kcu.table_name = 'group_unit'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6894801;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3170472;}i:117;a:6:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'group_unit' AND kcu.table_name = 'group_unit'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6898179;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:440;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3172192;}i:119;a:6:{i:0;s:43:"SELECT * FROM `jarak` WHERE `id_jarak`='11'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6899669;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3169288;}i:120;a:6:{i:0;s:43:"SELECT * FROM `jarak` WHERE `id_jarak`='11'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6900549;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3172424;}i:122;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `jarak`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6901219;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3179160;}i:123;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `jarak`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6908219;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3191448;}i:125;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jarak' AND kcu.table_name = 'jarak'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.690969;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3195008;}i:126;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jarak' AND kcu.table_name = 'jarak'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.691292;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:441;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3196728;}i:128;a:6:{i:0;s:57:"SELECT * FROM `jenis_muatan` WHERE `id_jenis_muatan`='20'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6914361;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3193824;}i:129;a:6:{i:0;s:57:"SELECT * FROM `jenis_muatan` WHERE `id_jenis_muatan`='20'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6923671;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3199848;}i:131;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `jenis_muatan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6924419;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3207248;}i:132;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `jenis_muatan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.692977;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3211608;}i:134;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jenis_muatan' AND kcu.table_name = 'jenis_muatan'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6930659;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3219424;}i:135;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'jenis_muatan' AND kcu.table_name = 'jenis_muatan'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.693357;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:442;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:3221144;}i:137;a:6:{i:0;s:42:"SHOW FULL COLUMNS FROM `biaya_operasional`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.693522;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3236000;}i:138;a:6:{i:0;s:42:"SHOW FULL COLUMNS FROM `biaya_operasional`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.69416;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3257424;}i:140;a:6:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'biaya_operasional' AND kcu.table_name = 'biaya_operasional'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6943319;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3256288;}i:141;a:6:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'biaya_operasional' AND kcu.table_name = 'biaya_operasional'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6948769;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:521;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3258008;}i:143;a:6:{i:0;s:307:"INSERT INTO `biaya_operasional` (`id_surat_jalan`, `rp_muat`, `rp_bongkar`, `rp_makan`, `rp_koperasi`, `rp_organda`, `rp_pelabuhan`, `rp_operasional`, `rp_lain`, `rp_bbm`, `rp_bbmplus`, `rp_liter`, `jml_liter`, `dibayarkan`) VALUES (16949, 0, 0, 0, 15000, 10000, 9000, 0, 5000, 637200, 0, 5400, 118, 626200)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.695076;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:535;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3265712;}i:144;a:6:{i:0;s:307:"INSERT INTO `biaya_operasional` (`id_surat_jalan`, `rp_muat`, `rp_bongkar`, `rp_makan`, `rp_koperasi`, `rp_organda`, `rp_pelabuhan`, `rp_operasional`, `rp_lain`, `rp_bbm`, `rp_bbmplus`, `rp_liter`, `jml_liter`, `dibayarkan`) VALUES (16949, 0, 0, 0, 15000, 10000, 9000, 0, 5000, 637200, 0, 5400, 118, 626200)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6977921;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:535;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3267048;}i:146;a:6:{i:0;s:46:"SHOW FULL COLUMNS FROM `kas_kecil_surat_jalan`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.697968;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3284312;}i:147;a:6:{i:0;s:46:"SHOW FULL COLUMNS FROM `kas_kecil_surat_jalan`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6984861;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3293488;}i:149;a:6:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'kas_kecil_surat_jalan' AND kcu.table_name = 'kas_kecil_surat_jalan'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6986051;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3298592;}i:150;a:6:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'kas_kecil_surat_jalan' AND kcu.table_name = 'kas_kecil_surat_jalan'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1584173424.6991379;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:540;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3300312;}i:152;a:6:{i:0;s:193:"INSERT INTO `kas_kecil_surat_jalan` (`tanggal`, `keterangan`, `id_surat_jalan`, `id_karyawan`, `jumlah`, `status`) VALUES ('2020-03-14 16:09:18', 'Biaya Operasional', 16949, 124, '-11000', '2')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.6992891;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:546;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3301112;}i:153;a:6:{i:0;s:193:"INSERT INTO `kas_kecil_surat_jalan` (`tanggal`, `keterangan`, `id_surat_jalan`, `id_karyawan`, `jumlah`, `status`) VALUES ('2020-03-14 16:09:18', 'Biaya Operasional', 16949, 124, '-11000', '2')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1584173424.7013841;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"/home/cvajm/public_html/cvajm/backend/controllers/SuratJalanController.php";s:4:"line";i:546;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3302448;}}}";s:5:"event";s:9667:"a:55:{i:0;a:5:{s:4:"time";d:1584173424.6636529;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:1;a:5:{s:4:"time";d:1584173424.664274;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:2;a:5:{s:4:"time";d:1584173424.6660211;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"backend\models\Login";}i:3;a:5:{s:4:"time";d:1584173424.666055;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"backend\models\Login";}i:4;a:5:{s:4:"time";d:1584173424.6663489;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"backend\models\Login";}i:5;a:5:{s:4:"time";d:1584173424.6669281;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:6;a:5:{s:4:"time";d:1584173424.6671569;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:7;a:5:{s:4:"time";d:1584173424.667206;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:40:"backend\controllers\SuratJalanController";}i:8;a:5:{s:4:"time";d:1584173424.6675069;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\SuratJalan";}i:9;a:5:{s:4:"time";d:1584173424.667522;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:10;a:5:{s:4:"time";d:1584173424.6677141;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\SuratJalan";}i:11;a:5:{s:4:"time";d:1584173424.6690769;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\SuratJalan";}i:12;a:5:{s:4:"time";d:1584173424.669148;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:13;a:5:{s:4:"time";d:1584173424.6705649;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:14;a:5:{s:4:"time";d:1584173424.6710989;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:15;a:5:{s:4:"time";d:1584173424.6715479;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:16;a:5:{s:4:"time";d:1584173424.671922;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:17;a:5:{s:4:"time";d:1584173424.6723571;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:18;a:5:{s:4:"time";d:1584173424.67295;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:19;a:5:{s:4:"time";d:1584173424.6733811;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:20;a:5:{s:4:"time";d:1584173424.6741779;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:21;a:5:{s:4:"time";d:1584173424.6745911;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"backend\models\Karyawan";}i:22;a:5:{s:4:"time";d:1584173424.6760881;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"backend\models\Karyawan";}i:23;a:5:{s:4:"time";d:1584173424.6807921;s:4:"name";s:12:"beforeInsert";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\SuratJalan";}i:24;a:5:{s:4:"time";d:1584173424.684314;s:4:"name";s:11:"afterInsert";s:5:"class";s:21:"yii\db\AfterSaveEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\SuratJalan";}i:25;a:5:{s:4:"time";d:1584173424.684334;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:26;a:5:{s:4:"time";d:1584173424.6845601;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"backend\models\Unit";}i:27;a:5:{s:4:"time";d:1584173424.686137;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"backend\models\Unit";}i:28;a:5:{s:4:"time";d:1584173424.686156;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:29;a:5:{s:4:"time";d:1584173424.6863489;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:28:"backend\models\PurchaseOrder";}i:30;a:5:{s:4:"time";d:1584173424.686384;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:28:"backend\models\PurchaseOrder";}i:31;a:5:{s:4:"time";d:1584173424.6864619;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:32;a:5:{s:4:"time";d:1584173424.686759;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:39:"backend\models\AcuanBiayaOperasionalNew";}i:33;a:5:{s:4:"time";d:1584173424.6883719;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:39:"backend\models\AcuanBiayaOperasionalNew";}i:34;a:5:{s:4:"time";d:1584173424.6884401;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:35;a:5:{s:4:"time";d:1584173424.6886361;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"backend\models\GroupUnit";}i:36;a:5:{s:4:"time";d:1584173424.689878;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"backend\models\GroupUnit";}i:37;a:5:{s:4:"time";d:1584173424.6898949;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:38;a:5:{s:4:"time";d:1584173424.690079;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"backend\models\Jarak";}i:39;a:5:{s:4:"time";d:1584173424.6913431;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"backend\models\Jarak";}i:40;a:5:{s:4:"time";d:1584173424.691361;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:41;a:5:{s:4:"time";d:1584173424.692395;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"backend\models\JenisMuatan";}i:42;a:5:{s:4:"time";d:1584173424.693397;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"backend\models\JenisMuatan";}i:43;a:5:{s:4:"time";d:1584173424.6934741;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:31:"backend\models\BiayaOperasional";}i:44;a:5:{s:4:"time";d:1584173424.6949511;s:4:"name";s:12:"beforeInsert";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:31:"backend\models\BiayaOperasional";}i:45;a:5:{s:4:"time";d:1584173424.6978459;s:4:"name";s:11:"afterInsert";s:5:"class";s:21:"yii\db\AfterSaveEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:31:"backend\models\BiayaOperasional";}i:46;a:5:{s:4:"time";d:1584173424.6979179;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:33:"backend\models\KasKecilSuratJalan";}i:47;a:5:{s:4:"time";d:1584173424.6991911;s:4:"name";s:12:"beforeInsert";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:33:"backend\models\KasKecilSuratJalan";}i:48;a:5:{s:4:"time";d:1584173424.701441;s:4:"name";s:11:"afterInsert";s:5:"class";s:21:"yii\db\AfterSaveEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:33:"backend\models\KasKecilSuratJalan";}i:49;a:5:{s:4:"time";d:1584173424.701719;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:40:"backend\controllers\SuratJalanController";}i:50;a:5:{s:4:"time";d:1584173424.7017281;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:51;a:5:{s:4:"time";d:1584173424.701736;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:52;a:5:{s:4:"time";d:1584173424.7017441;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:53;a:5:{s:4:"time";d:1584173424.7018471;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:54;a:5:{s:4:"time";d:1584173424.7018771;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:6:"assets";s:6:"a:0:{}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:93:"a:3:{s:5:"start";d:1584173424.6609859;s:3:"end";d:1584173424.7055459;s:6:"memory";i:3307680;}";s:4:"user";s:619:"a:5:{s:2:"id";i:7;s:8:"identity";a:5:{s:8:"id_login";s:1:"7";s:8:"username";s:8:"'sherly'";s:8:"password";s:34:"'0db6b3fd739533f52ac557eb260587e9'";s:4:"nama";s:18:"'Sherly Dewi Yana'";s:4:"foto";s:13:"'avatar5.png'";}s:10:"attributes";a:5:{i:0;a:2:{s:9:"attribute";s:8:"id_login";s:5:"label";s:8:"Id Login";}i:1;a:2:{s:9:"attribute";s:8:"username";s:5:"label";s:8:"Username";}i:2;a:2:{s:9:"attribute";s:8:"password";s:5:"label";s:8:"Password";}i:3;a:2:{s:9:"attribute";s:4:"nama";s:5:"label";s:4:"Nama";}i:4;a:2:{s:9:"attribute";s:4:"foto";s:5:"label";s:4:"Foto";}}s:13:"rolesProvider";N;s:19:"permissionsProvider";N;}";s:6:"router";s:207:"a:1:{s:8:"messages";a:1:{i:17;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1584173424.6669359;i:4;a:0:{}i:5;i:1725176;}}}";s:7:"summary";a:10:{s:3:"tag";s:13:"5e6c9170a2c63";s:3:"url";s:67:"http://cvajm.com/cvajm/backend/web/index.php?r=surat-jalan%2Fcreate";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:11:"36.90.97.69";s:4:"time";d:1584173424.6591959;s:10:"statusCode";i:302;s:8:"sqlCount";i:45;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}}s:10:"exceptions";a:0:{}}

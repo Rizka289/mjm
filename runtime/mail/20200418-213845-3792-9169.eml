@@ -1,0 +1,287 @@
+Message-ID: <8772ba05d17084171bd4a9bfc74b55fa@cvajm.com>
+Date: Sat, 18 Apr 2020 21:38:45 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-04-18 21:38:45
+[36.75.23.7][66][5neb40ktb3a7fldc5f0clud4n1][error][y=
+ii\db\Exception]
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Un=
+known column
+'id_nama_terpal' in 'field list' in
+/home/cvajm/public_htm=
+l/cvajm/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0
+/home=
+/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1290):
+PDOSta=
+tement->execute()
+#1
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/=
+db/Command.php(1158):
+yii\db\Command->internalExecute('SELECT COUNT(id...=
+')
+#2
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(=
+425):
+yii\db\Command->queryInternal('fetchColumn', 0)
+#3
+/home/cvajm/=
+public_html/cvajm/backend/controllers/TerpalController.php(239):
+yii\db\C=
+ommand->queryScalar()
+#4 [internal function]:
+backend\controllers\Terpa=
+lController->actionInputStok('1')
+#5
+/home/cvajm/public_html/cvajm/vend=
+or/yiisoft/yii2/base/InlineAction.php(57):
+call_user_func_array(Array, Ar=
+ray)
+#6
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Controll=
+er.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#7
+/home/cva=
+jm/public_html/cvajm/vendor/yiisoft/yii2/base/Module.php(528):
+yii\base\C=
+ontroller->runAction('input-stok', Array)
+#8
+/home/cvajm/public_html/cv=
+ajm/vendor/yiisoft/yii2/web/Application.php(103):
+yii\base\Module->runAct=
+ion('terpal/input-st...', Array)
+#9
+/home/cvajm/public_html/cvajm/vendo=
+r/yiisoft/yii2/base/Application.php(386):
+yii\web\Application->handleRequ=
+est(Object(yii\web\Request))
+#10 /home/cvajm/public_html/cvajm/backend/we=
+b/index.php(22):
+yii\base\Application->run()
+#11 {main}
+
+Next yii\d=
+b\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown
+column 'id_n=
+ama_terpal' in 'field list'
+The SQL being executed was: SELECT COUNT(id_n=
+ama_terpal) FROM
+terpal_stok WHERE id_nama_terpal =3D '1' in
+/home/cvaj=
+m/public_html/cvajm/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+=
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1295)=
+:
+yii\db\Schema->convertException(Object(PDOException), 'SELECT
+COUNT(i=
+d...')
+#1
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.=
+php(1158):
+yii\db\Command->internalExecute('SELECT COUNT(id...')
+#2
+/=
+home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(425):
+yii=
+\db\Command->queryInternal('fetchColumn', 0)
+#3
+/home/cvajm/public_html=
+/cvajm/backend/controllers/TerpalController.php(239):
+yii\db\Command->que=
+ryScalar()
+#4 [internal function]:
+backend\controllers\TerpalController=
+->actionInputStok('1')
+#5
+/home/cvajm/public_html/cvajm/vendor/yiisoft/=
+yii2/base/InlineAction.php(57):
+call_user_func_array(Array, Array)
+#6=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Controller.php(15=
+7):
+yii\base\InlineAction->runWithParams(Array)
+#7
+/home/cvajm/public=
+_html/cvajm/vendor/yiisoft/yii2/base/Module.php(528):
+yii\base\Controller=
+->runAction('input-stok', Array)
+#8
+/home/cvajm/public_html/cvajm/vendo=
+r/yiisoft/yii2/web/Application.php(103):
+yii\base\Module->runAction('terp=
+al/input-st...', Array)
+#9
+/home/cvajm/public_html/cvajm/vendor/yiisoft=
+/yii2/base/Application.php(386):
+yii\web\Application->handleRequest(Objec=
+t(yii\web\Request))
+#10 /home/cvajm/public_html/cvajm/backend/web/index.p=
+hp(22):
+yii\base\Application->run()
+#11 {main}
+Additional Information=
+:
+Array
+(
+    [0] =3D> 42S22
+    [1] =3D> 1054
+    [2] =3D> Unkno=
+wn column 'id_nama_terpal' in 'field list'
+)
+
+2020-04-18 21:38:45
+[=
+36.75.23.7][66][5neb40ktb3a7fldc5f0clud4n1][info][application] $_GET
+=3D =
+[
+    'r' =3D> 'terpal/input-stok'
+    'id' =3D> '1'
+]
+
+$_POST =
+=3D [
+    '_csrf-backend' =3D>
+'e6I2wYk5RDPM9Hf3_aWvG98ZS-zgsLBRTwYqcJc=
+nUv4J9EalwGoKBICHPI7K9p0ouS0fnIXS2jMNfnASulMIoQ=3D=3D'
+]
+
+$_FILES =3D=
+ []
+
+$_COOKIE =3D [
+    'advanced-backend' =3D> '5neb40ktb3a7fldc5f0c=
+lud4n1'
+    '_csrf-backend' =3D>
+'0770bc3379c0f9af9e6faea80d8ef5d2e9bc8=
+17c101b79ef1f82e49c1b9ee53ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"rVpdI=
+SN7LsKy7S23f4TpebjbBxZb-tZ_\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =
+=3D> []
+    '__returnUrl' =3D> '/cvajm/backend/web/index.php'
+    'user=
+_role' =3D> [
+        0 =3D> 'PURCHASING'
+        1 =3D> 'LOGISTIC'
+ =
+       2 =3D> 'KEPALA LOGISTIK'
+        3 =3D> 'WORKSHOP'
+    ]
+    '=
+user_role_id' =3D> [
+        0 =3D> 12
+        1 =3D> 11
+        2 =
+=3D> 23
+        3 =3D> 10
+    ]
+    '__id' =3D> 66
+]
+
+$_SERVER =
+=3D [
+    'USER' =3D> 'cvajm'
+    'HOME' =3D> '/home/cvajm'
+    'SCRI=
+PT_NAME' =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_URI' =3D>
+'/c=
+vajm/backend/web/index.php?r=3Dterpal%2Finput-stok&id=3D1'
+    'QUERY_STR=
+ING' =3D> 'r=3Dterpal%2Finput-stok&id=3D1'
+    'REQUEST_METHOD' =3D> 'POS=
+T'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> '=
+CGI/1.1'
+    'REMOTE_PORT' =3D> '5777'
+    'SCRIPT_FILENAME' =3D>
+'/h=
+ome/cvajm/public_html/cvajm/backend/web/index.php'
+    'SERVER_ADMIN' =3D=
+> '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/home/cvajm/publ=
+ic_html'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'https'=
+
+    'DOCUMENT_ROOT' =3D> '/home/cvajm/public_html'
+    'REMOTE_ADDR' =
+=3D> '36.75.23.7'
+    'SERVER_PORT' =3D> '443'
+    'SERVER_ADDR' =3D> '=
+178.128.25.198'
+    'SERVER_NAME' =3D> 'cvajm.com'
+    'SERVER_SOFTWARE=
+' =3D> 'Apache/2.4.25'
+    'SERVER_SIGNATURE' =3D> ''
+    'PATH' =3D>=
+
+'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HT=
+TP_COOKIE' =3D> 'advanced-backend=3D5neb40ktb3a7fldc5f0clud4n1;
+_csrf-bac=
+kend=3D0770bc3379c0f9af9e6faea80d8ef5d2e9bc817c101b79ef1f82e49c1b9ee53ca%3A=
+2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22rVpdISN7L=
+sKy7S23f4TpebjbBxZb-tZ_%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'en-US,=
+en;q=3D0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate, br'
+    'HT=
+TP_REFERER' =3D>
+'https://cvajm.com/cvajm/backend/web/index.php?r=3Dterpa=
+l%2Fview&id=3D1'
+    'HTTP_SEC_FETCH_USER' =3D> '?1'
+    'HTTP_SEC_FETC=
+H_MODE' =3D> 'navigate'
+    'HTTP_SEC_FETCH_SITE' =3D> 'same-origin'
+  =
+  'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,application/xml;q=
+=3D0.9,image/webp,image/apng,*/*;q=3D0.8,application/signed-exchange;v=3Db3=
+;q=3D0.9'
+    'HTTP_SEC_FETCH_DEST' =3D> 'document'
+    'HTTP_USER_AGEN=
+T' =3D> 'Mozilla/5.0 (Windows NT 6.1)
+AppleWebKit/537.36 (KHTML, like Gec=
+ko) Chrome/80.0.3987.163
+Safari/537.36'
+    'CONTENT_TYPE' =3D> 'applic=
+ation/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1=
+'
+    'HTTP_ORIGIN' =3D> 'https://cvajm.com'
+    'HTTP_CACHE_CONTROL' =
+=3D> 'max-age=3D0'
+    'CONTENT_LENGTH' =3D> '106'
+    'HTTP_CONNECTION=
+' =3D> 'keep-alive'
+    'HTTP_HOST' =3D> 'cvajm.com'
+    'proxy-nokeepa=
+live' =3D> '1'
+    'SSL_TLS_SNI' =3D> 'cvajm.com'
+    'HTTPS' =3D> 'on'=
+
+    'SCRIPT_URI' =3D> 'https://cvajm.com/cvajm/backend/web/index.php'
+=
+    'SCRIPT_URL' =3D> '/cvajm/backend/web/index.php'
+    'FCGI_ROLE' =3D>=
+ 'RESPONDER'
+    'PHP_SELF' =3D> '/cvajm/backend/web/index.php'
+    'RE=
+QUEST_TIME_FLOAT' =3D> 1587217125.362
+    'REQUEST_TIME' =3D> 1587217125=
+
+]

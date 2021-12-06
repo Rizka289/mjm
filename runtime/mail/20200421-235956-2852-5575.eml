@@ -1,0 +1,385 @@
+Message-ID: <4f78d0d9bcaf8d732855f70986b27c6a@cvajm.com>
+Date: Tue, 21 Apr 2020 23:59:56 +0800
+Subject: Database errors at example.com
+From: log@example.com
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-04-21 23:59:56
+[125.160.60.54][66][1l745e44f8kqcqtp344ujqlsd6][error=
+][yii\db\Exception]
+PDOException: SQLSTATE[42S22]: Column not found: 1054=
+ Unknown column
+'penggunaan_spare_part.tanggal' in 'where clause' in
+/h=
+ome/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php:1290
+Stack=
+ trace:
+#0
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command=
+.php(1290):
+PDOStatement->execute()
+#1
+/home/cvajm/public_html/cvajm/=
+vendor/yiisoft/yii2/db/Command.php(1158):
+yii\db\Command->internalExecute=
+('\n              ...')
+#2
+/home/cvajm/public_html/cvajm/vendor/yiisoft=
+/yii2/db/Command.php(386):
+yii\db\Command->queryInternal('')
+#3
+/home=
+/cvajm/public_html/cvajm/backend/views/logistik-keluar/cetak_laporan_barang=
+_keluar.php(793):
+yii\db\Command->query()
+#4
+/home/cvajm/public_html/=
+cvajm/vendor/yiisoft/yii2/base/View.php(348):
+require('/home/cvajm/pub...=
+')
+#5
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(2=
+57):
+yii\base\View->renderPhpFile('/home/cvajm/pub...', '[<span
+class=
+=3D"s...')
+#6
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Vi=
+ew.php(156):
+yii\base\View->renderFile('/home/cvajm/pub...', Array,
+Obj=
+ect(backend\controllers\LogistikKeluarController))
+#7
+/home/cvajm/publi=
+c_html/cvajm/vendor/yiisoft/yii2/base/Controller.php(415):
+yii\base\View-=
+>render('cetak_laporan_b...', Array,
+Object(backend\controllers\LogistikK=
+eluarController))
+#8
+/home/cvajm/public_html/cvajm/backend/controllers/=
+LogistikKeluarController.php(185):
+yii\base\Controller->renderPartial('ce=
+tak_laporan_b...', Array)
+#9 [internal function]:
+backend\controllers\L=
+ogistikKeluarController->actionCetakLaporanBarangKeluar()
+#10
+/home/cva=
+jm/public_html/cvajm/vendor/yiisoft/yii2/base/InlineAction.php(57):
+call_=
+user_func_array(Array, Array)
+#11
+/home/cvajm/public_html/cvajm/vendor/=
+yiisoft/yii2/base/Controller.php(157):
+yii\base\InlineAction->runWithPara=
+ms(Array)
+#12
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Mo=
+dule.php(528):
+yii\base\Controller->runAction('cetak-laporan-b...', Array=
+)
+#13
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/web/Application=
+.php(103):
+yii\base\Module->runAction('logistik-keluar...', Array)
+#14=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Application.php(3=
+86):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /h=
+ome/cvajm/public_html/cvajm/backend/web/index.php(22):
+yii\base\Applicati=
+on->run()
+#16 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column =
+not found: 1054 Unknown
+column 'penggunaan_spare_part.tanggal' in 'where =
+clause'
+The SQL being executed was:=20
+                                  =
+          SELECT
+ba_perbaikan.nomor_surat, unit.nopol, karyawan.nama,
+n=
+ama_terpal.nama_terpal, penggunaan_terpal.tanggal,
+penggunaan_terpal_deta=
+il.jumlah, terpal.harga
+                                            FROM =
+penggunaan_terpal
+                                            LEFT JOIN b=
+a_perbaikan ON
+ba_perbaikan.id_ba_perbaikan =3D penggunaan_terpal.id_ba_p=
+erbaikan
+                                            LEFT JOIN unit ON
+=
+unit.id_unit =3D penggunaan_terpal.id_unit
+                              =
+              LEFT JOIN karyawan ON
+karyawan.id_karyawan =3D penggunaan_t=
+erpal.id_karyawan
+                                            LEFT JOIN=
+
+penggunaan_terpal_detail ON
+penggunaan_terpal_detail.id_penggunaan_ter=
+pal =3D
+penggunaan_terpal.id_penggunaan_terpal
+                        =
+                    LEFT JOIN terpal ON
+terpal.id_terpal =3D penggunaan_t=
+erpal_detail.id_terpal
+                                            LEFT J=
+OIN nama_terpal ON
+nama_terpal.id_nama_terpal =3D terpal.id_nama_terpal=
+
+                                            LEFT JOIN terpal_stok ON
+t=
+erpal_stok.id_terpal =3D terpal.id_terpal
+                               =
+             WHERE 1 and
+date_format(penggunaan_spare_part.tanggal,  '%Y-=
+%m-%d')
+                                            BETWEEN '2020-03-28' =
+AND
+'2020-03-28'   =20
+                                           =20
+   =
+                                          in
+/home/cvajm/public_html/cvaj=
+m/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0
+/home/cvajm/p=
+ublic_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1295):
+yii\db\Schema-=
+>convertException(Object(PDOException), '\n            =20
+...')
+#1
+/ho=
+me/cvajm/public_html/cvajm/vendor/yiisoft/yii2/db/Command.php(1158):
+yii\=
+db\Command->internalExecute('\n              ...')
+#2
+/home/cvajm/publi=
+c_html/cvajm/vendor/yiisoft/yii2/db/Command.php(386):
+yii\db\Command->que=
+ryInternal('')
+#3
+/home/cvajm/public_html/cvajm/backend/views/logistik-=
+keluar/cetak_laporan_barang_keluar.php(793):
+yii\db\Command->query()
+#4=
+
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/View.php(348):
+=
+require('/home/cvajm/pub...')
+#5
+/home/cvajm/public_html/cvajm/vendor/y=
+iisoft/yii2/base/View.php(257):
+yii\base\View->renderPhpFile('/home/cvajm=
+/pub...', '[<span
+class=3D"s...')
+#6
+/home/cvajm/public_html/cvajm/ve=
+ndor/yiisoft/yii2/base/View.php(156):
+yii\base\View->renderFile('/home/cv=
+ajm/pub...', Array,
+Object(backend\controllers\LogistikKeluarController))=
+
+#7
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Controller.p=
+hp(415):
+yii\base\View->render('cetak_laporan_b...', Array,
+Object(back=
+end\controllers\LogistikKeluarController))
+#8
+/home/cvajm/public_html/c=
+vajm/backend/controllers/LogistikKeluarController.php(185):
+yii\base\Cont=
+roller->renderPartial('cetak_laporan_b...', Array)
+#9 [internal function]=
+:
+backend\controllers\LogistikKeluarController->actionCetakLaporanBarangK=
+eluar()
+#10
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii2/base/Inli=
+neAction.php(57):
+call_user_func_array(Array, Array)
+#11
+/home/cvajm/=
+public_html/cvajm/vendor/yiisoft/yii2/base/Controller.php(157):
+yii\base\=
+InlineAction->runWithParams(Array)
+#12
+/home/cvajm/public_html/cvajm/ve=
+ndor/yiisoft/yii2/base/Module.php(528):
+yii\base\Controller->runAction('c=
+etak-laporan-b...', Array)
+#13
+/home/cvajm/public_html/cvajm/vendor/yii=
+soft/yii2/web/Application.php(103):
+yii\base\Module->runAction('logistik-=
+keluar...', Array)
+#14
+/home/cvajm/public_html/cvajm/vendor/yiisoft/yii=
+2/base/Application.php(386):
+yii\web\Application->handleRequest(Object(yi=
+i\web\Request))
+#15 /home/cvajm/public_html/cvajm/backend/web/index.php(2=
+2):
+yii\base\Application->run()
+#16 {main}
+Additional Information:
+=
+Array
+(
+    [0] =3D> 42S22
+    [1] =3D> 1054
+    [2] =3D> Unknown c=
+olumn 'penggunaan_spare_part.tanggal' in 'where
+clause'
+)
+
+2020-04-=
+21 23:59:56
+[125.160.60.54][66][1l745e44f8kqcqtp344ujqlsd6][info][applica=
+tion]
+$_GET =3D [
+    'r' =3D> 'logistik-keluar/cetak-laporan-barang-ke=
+luar'
+    'tanggal_awal' =3D> '2020-03-28'
+    'tanggal_akhir' =3D> '20=
+20-03-28'
+]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+=
+    'advanced-backend' =3D> '1l745e44f8kqcqtp344ujqlsd6'
+    '_csrf-backe=
+nd' =3D>
+'f991ef74b8a09a5d84213fbef7ae9aa20130fef73bbc66bf96d8b92a40faad3=
+8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xxpygE05tQONRqLVr_uzf3raJuFXd62=
+_\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+    'user_role' =
+=3D> [
+        0 =3D> 'PURCHASING'
+        1 =3D> 'LOGISTIC'
+        =
+2 =3D> 'KEPALA LOGISTIK'
+        3 =3D> 'WORKSHOP'
+    ]
+    'user_ro=
+le_id' =3D> [
+        0 =3D> 12
+        1 =3D> 11
+        2 =3D> 23=
+
+        3 =3D> 10
+    ]
+    '__id' =3D> 66
+]
+
+$_SERVER =3D [=
+
+    'USER' =3D> 'cvajm'
+    'HOME' =3D> '/home/cvajm'
+    'SCRIPT_NA=
+ME' =3D> '/cvajm/backend/web/index.php'
+    'REQUEST_URI' =3D>
+'/cvajm/=
+backend/web/index.php?r=3Dlogistik-keluar%2Fcetak-laporan-barang-keluar&tan=
+ggal_awal=3D2020-03-28&tanggal_akhir=3D2020-03-28'
+    'QUERY_STRING' =3D=
+>
+'r=3Dlogistik-keluar%2Fcetak-laporan-barang-keluar&tanggal_awal=3D2020-=
+03-28&tanggal_akhir=3D2020-03-28'
+    'REQUEST_METHOD' =3D> 'GET'
+    '=
+SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'=
+
+    'REMOTE_PORT' =3D> '31855'
+    'SCRIPT_FILENAME' =3D>
+'/home/cva=
+jm/public_html/cvajm/backend/web/index.php'
+    'SERVER_ADMIN' =3D> '[no =
+address given]'
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/home/cvajm/public_html=
+'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'https'
+    =
+'DOCUMENT_ROOT' =3D> '/home/cvajm/public_html'
+    'REMOTE_ADDR' =3D> '12=
+5.160.60.54'
+    'SERVER_PORT' =3D> '443'
+    'SERVER_ADDR' =3D> '178.1=
+28.25.198'
+    'SERVER_NAME' =3D> 'cvajm.com'
+    'SERVER_SOFTWARE' =3D=
+> 'Apache/2.4.25'
+    'SERVER_SIGNATURE' =3D> ''
+    'PATH' =3D>
+'/us=
+r/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HTTP_COOK=
+IE' =3D> 'advanced-backend=3D1l745e44f8kqcqtp344ujqlsd6;
+_csrf-backend=3D=
+f991ef74b8a09a5d84213fbef7ae9aa20130fef73bbc66bf96d8b92a40faad38a%3A2%3A%7B=
+i%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xxpygE05tQONRqLV=
+r_uzf3raJuFXd62_%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'en-US,en;q=3D=
+0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate, br'
+    'HTTP_REFE=
+RER' =3D>
+'https://cvajm.com/cvajm/backend/web/index.php?r=3Dlogistik-kel=
+uar%2Flaporan-barang-keluar&1%5Bclass%5D=3Dform-inline'
+    'HTTP_SEC_FET=
+CH_DEST' =3D> 'document'
+    'HTTP_SEC_FETCH_USER' =3D> '?1'
+    'HTTP_=
+SEC_FETCH_MODE' =3D> 'navigate'
+    'HTTP_SEC_FETCH_SITE' =3D> 'same-orig=
+in'
+    'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,application=
+/xml;q=3D0.9,image/webp,image/apng,*/*;q=3D0.8,application/signed-exchange;=
+v=3Db3;q=3D0.9'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 6.1; =
+)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113
+Safari/53=
+7.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_CONNECTIO=
+N' =3D> 'keep-alive'
+    'HTTP_HOST' =3D> 'cvajm.com'
+    'proxy-nokeep=
+alive' =3D> '1'
+    'SSL_TLS_SNI' =3D> 'cvajm.com'
+    'HTTPS' =3D> 'on=
+'
+    'SCRIPT_URI' =3D> 'https://cvajm.com/cvajm/backend/web/index.php'=
+
+    'SCRIPT_URL' =3D> '/cvajm/backend/web/index.php'
+    'FCGI_ROLE' =
+=3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/cvajm/backend/web/index.php'
+   =
+ 'REQUEST_TIME_FLOAT' =3D> 1587484796.267
+    'REQUEST_TIME' =3D> 1587484=
+796
+]
