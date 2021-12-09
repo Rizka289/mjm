@@ -32,20 +32,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             // 'id_karyawan',
-            [
-                'attribute' => 'tanggal_masuk',
-                'value'     => function ($model)
-                {
-                    if ($model->tanggal_masuk == 0) {
-                        return "00-00-0000";
-                    } else {
-                        return Yii::$app->formatter->asDate($model->tanggal_masuk, 'php:d-m-Y');;
-                    }
-                }
-            ],
             'nik',
             'nama',
-             [
+            [
                 'attribute' => 'jenis_kelamin',
                 'filter'    => array(
                     0 => "Perempuan",
@@ -60,6 +49,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     }
                 }
             ],
+            'tempat_lahir',
             [
                 'attribute' => 'tanggal_lahir',
                 'value'     => function ($model)
@@ -111,6 +101,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     }
                 }
             ],
+           
              [
                 'attribute' => 'agama',
                 'filter'    => array(
@@ -169,6 +160,17 @@ $this->params['breadcrumbs'][] = $this->title;
                         return "Keluar";
                     } else {
                         return "PHK";
+                    }
+                }
+            ],
+             [
+                'attribute' => 'tanggal_masuk',
+                'value'     => function ($model)
+                {
+                    if ($model->tanggal_masuk == 0) {
+                        return "00-00-0000";
+                    } else {
+                        return Yii::$app->formatter->asDate($model->tanggal_masuk, 'php:d-m-Y');;
                     }
                 }
             ],

@@ -22,6 +22,8 @@ use kartik\datetime\DateTimePicker;
 
     <?= $form->field($model, 'nama')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'tempat_lahir')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'tanggal_lahir')->widget(\yii\jui\DatePicker::classname(), [
             'clientOptions' => [
                         'changeMonth'=>true, 

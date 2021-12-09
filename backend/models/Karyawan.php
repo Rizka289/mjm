@@ -30,9 +30,9 @@ class Karyawan extends \yii\db\ActiveRecord
     {
         return [
             [['nik', 'nama', 'tanggal_lahir', 'alamat', 'jenis_kelamin', 'pendidikan_terakhir', 'agama', 'status_karyawan'], 'required'],
-            [['nik', 'jenis_kelamin', 'pendidikan_terakhir', 'agama', 'status_karyawan'], 'integer'],
-            [['tanggal_lahir','tanggal_masuk','tanggal_keluar'], 'safe'],
-            [['nama', 'alamat'], 'string', 'max' => 100],
+            [['jenis_kelamin', 'pendidikan_terakhir', 'agama', 'status_karyawan'], 'integer'],
+            [['tanggal_lahir','tanggal_masuk','tanggal_keluar','nik'], 'safe'],
+            [['nama', 'alamat','tempat_lahir'], 'string', 'max' => 100],
         ];
     }
 
@@ -50,6 +50,7 @@ class Karyawan extends \yii\db\ActiveRecord
             'status_karyawan' => 'Status Karyawan',
             'tanggal_masuk' => 'Tanggal Masuk',
             'tanggal_keluar' => 'Tanggal Keluar',
+            'tempat_lahir' => 'Tempat Lahir',
         ];
     }
 }

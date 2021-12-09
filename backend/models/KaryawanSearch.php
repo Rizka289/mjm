@@ -15,8 +15,8 @@ class KaryawanSearch extends Karyawan
     public function rules()
     {
         return [
-            [['id_karyawan', 'nik', 'jenis_kelamin', 'pendidikan_terakhir', 'agama', 'status_karyawan'], 'integer'],
-            [['nama', 'tanggal_lahir', 'alamat','tanggal_masuk','tanggal_keluar'], 'safe'],
+            [['id_karyawan','jenis_kelamin', 'pendidikan_terakhir', 'agama', 'status_karyawan'], 'integer'],
+            [['nama', 'tanggal_lahir', 'alamat','tanggal_masuk','tanggal_keluar','tempat_lahir','nik'], 'safe'],
         ];
     }
 
@@ -49,16 +49,18 @@ class KaryawanSearch extends Karyawan
         // grid filtering conditions
         $query->andFilterWhere([
             'id_karyawan' => $this->id_karyawan,
-            'nik' => $this->nik,
+            // 'nik' => $this->nik,
             'tanggal_lahir' => $this->tanggal_lahir,
             'jenis_kelamin' => $this->jenis_kelamin,
             'pendidikan_terakhir' => $this->pendidikan_terakhir,
             'agama' => $this->agama,
             'status_karyawan' => $this->status_karyawan,
+            
         ]);
 
         $query->andFilterWhere(['like', 'nama', $this->nama])
-            ->andFilterWhere(['like', 'alamat', $this->alamat]);
+            ->andFilterWhere(['like', 'alamat', $this->alamat])
+            ->andFilterWhere(['like', 'nik', $this->nik]);
 
         return $dataProvider;
     }
